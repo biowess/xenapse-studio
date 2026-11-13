@@ -1,6 +1,5 @@
 <div align="center">
 
-<!-- Banner Placeholder -->
 <img src="assets/banner.png" alt="Xenapse Banner" width="600" />
 
 # Xenapse Studio
