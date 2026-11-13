@@ -181,38 +181,29 @@ END
 
 ## Getting Started
 
-### Running as a Desktop App (Electron)
+## Getting Started
 
-Xenapse Studio is packaged with Electron for a native desktop experience with local filesystem access:
+### Download Xenapse Studio
 
-```bash
-# Clone the studio repository
-git clone https://github.com/biowess/xenapse-studio.git
-cd xenapse-studio
+Get the latest release from the official GitHub Releases page:
 
-# Install development dependencies
-npm install
+<p align="center">
+  <a href="https://github.com/biowess/xenapse-studio/releases/latest">
+    <strong>Download Xenapse Studio</strong>
+  </a>
+</p>
 
-# Launch Xenapse Studio
-npm start
+Choose the installer for your operating system:
 
-# Or launch with DevTools detached for development
-npm run dev
-```
+| Platform | Package | Installation |
+| :--- | :--- | :--- |
+| Linux | `.AppImage` | Make the file executable and run it. |
+| Windows | `.exe` | Run the installer and follow the setup instructions. |
 
-### Running in a Web Browser (Zero Build Step)
+Once installed, launch **Xenapse Studio** from your applications menu or desktop shortcut.
 
-Xenapse Studio is crafted using clean, modern standards: semantic HTML5, modular CSS, and vanilla ES modules. There is **no build step**, no webpack, and no bundler required.
-
-1. Open `index.html` directly in any modern browser (Chrome, Firefox, Safari, Edge):
-   ```bash
-   # Or serve statically using any standard local server
-   python3 -m http.server 8080
-   # Then visit http://localhost:8080 in your browser
-   ```
-2. When running in a browser:
-   * **Open**: Use the file picker or drag-and-drop `.xnp` and `.xcss` files directly onto the window.
-   * **Save**: Triggers standard browser file downloads.
+For the latest updates, fixes, and release notes, visit the
+[Releases page](https://github.com/biowess/xenapse-studio/releases).
 
 ---
 
