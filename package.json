@@ -1,0 +1,52 @@
+{
+  "name": "xenapse-studio",
+  "productName": "Xenapse Studio",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Biowess",
+    "email": "biowess@proton.me",
+    "url": "https://biowess-dev.github.io/Biowess"
+  },
+  "homepage": "https://biowess-dev.github.io/Biowess",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder",
+    "build:win": "electron-builder --win",
+    "build:linux": "electron-builder --linux"
+  },
+  "build": {
+    "appId": "com.biowess.xenapse-studio",
+    "productName": "Xenapse Studio",
+    "copyright": "Copyright \u00a9 2026 Biowess",
+    "files": [
+      "**/*",
+      "!assets/brand/original/**",
+      "!assets/brand/derived/**",
+      "!*.zip"
+    ],
+    "win": {
+      "icon": "assets/brand/icon.ico",
+      "target": [
+        "nsis"
+      ]
+    },
+    "linux": {
+      "icon": "assets/brand/icon-linux.png",
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Development",
+      "syncDesktopName": true
+    }
+  },
+  "devDependencies": {
+    "electron": "45.3.1",
+    "electron-builder": "^26.18.0"
+  },
+  "description": "A desktop authoring environment for creating, editing, and rendering documents with the Xenapse language.",
+  "desktopName": "com.biowess.xenapse-studio"
+}

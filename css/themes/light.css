@@ -1,0 +1,23 @@
+:root, :root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #F2F0EB; --surface: #FBFAF7; --surface-2: #EFEDE7; --surface-3: #E5E2DA;
+  --border: #DAD6CC; --border-strong: #C3BEB2;
+  --text: #172638; --text-2: #3A4856; --muted: #5C6770; --faint: #8B939A;
+  --accent: #A55B3F; --accent-hover: #8E4C33; --accent-soft: rgba(165,91,63,.11); --on-accent: #FFFFFF;
+  --secondary: #4B7571; --secondary-soft: rgba(75,117,113,.13);
+  --focus: #A55B3F; --selection: rgba(75,117,113,.30);
+  --danger: #A3392F; --success: #3F7A57;
+  --topbar-bg: #172638; --topbar-text: #E9EEF2; --topbar-muted: #9AA7B2; --topbar-hover: rgba(255,255,255,.09);
+  --editor-bg: #FDFCFA; --gutter-bg: #F7F5F1; --gutter-text: #A0A6AB; --gutter-active: #172638; --curline: rgba(23,38,56,.05);
+  --canvas-bg: #E9E6DF; --canvas-dot: #CBC6BA; --paper: #FFFFFF; --paper-border: #D6D1C6;
+  --menu-bg: #FDFCFA; --overlay: rgba(23,38,56,.38);
+  --bs-nav-bg: #172638; --bs-nav-text: #D5DDE4; --bs-nav-muted: #8E9BA7; --bs-nav-hover: rgba(255,255,255,.07); --bs-nav-active: rgba(255,255,255,.12);
+  /* syntax */
+  --syn-comment: #8B939A; --syn-keyword: #172638; --syn-module: #3F6560; --syn-string: #8E4C33; --syn-tag: #5C6770;
+  --syn-process: #3F6560; --syn-decision: #A55B3F; --syn-io: #4A5A68; --syn-emph: #A55B3F; --syn-op: #7A858E; --syn-brace: #7A858E;
+  --syn-sel: #172638; --syn-class: #3F6560; --syn-prop: #4A5A68; --syn-num: #A55B3F;
+  /* diagram sample */
+  --dg-ink: #172638; --dg-edge: #5C6770; --dg-proc-fill: #E8EFED; --dg-proc-stroke: #4B7571;
+  --dg-dec-fill: #F6E9E2; --dg-dec-stroke: #A55B3F; --dg-term-fill: #172638; --dg-term-ink: #F4F6F8;
+  --dg-io-fill: #ECEEF0; --dg-io-stroke: #5C6770; --dg-tag: #8B939A;
+}

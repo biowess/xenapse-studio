@@ -1,0 +1,17 @@
+.workspace { position: relative; display: grid; min-width: 0; min-height: 0; background: var(--bg); }
+.workspace[data-eff="split-h"] { grid-template-columns: 1fr var(--divider-w) 1fr; grid-template-rows: minmax(0, 1fr); }
+.workspace[data-eff="split-v"] { grid-template-rows: 1fr var(--divider-w) 1fr; grid-template-columns: minmax(0, 1fr); }
+.workspace[data-eff="source"], .workspace[data-eff="preview"] { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr); }
+.workspace[data-eff="source"] .pane--preview, .workspace[data-eff="preview"] .pane--source,
+.workspace[data-eff="source"] .divider, .workspace[data-eff="preview"] .divider { display: none; }
+.pane { display: flex; flex-direction: column; min-width: 0; min-height: 0; background: var(--surface); overflow: hidden; }
+
+.divider { position: relative; background: var(--bg); cursor: col-resize; touch-action: none; }
+.workspace[data-eff="split-v"] .divider { cursor: row-resize; }
+.divider::before { content: ""; position: absolute; background: var(--border); transition: background .12s; }
+.workspace[data-eff="split-h"] .divider::before { left: 3px; right: 3px; top: 0; bottom: 0; }
+.workspace[data-eff="split-v"] .divider::before { top: 3px; bottom: 3px; left: 0; right: 0; }
+.divider:hover::before, .divider.is-dragging::before, .divider:focus-visible::before { background: var(--accent); }
+.divider:focus-visible { outline: none; }
+body.is-resizing { user-select: none; }
+body.is-resizing * { cursor: inherit !important; }

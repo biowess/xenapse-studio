@@ -1,0 +1,19 @@
+{
+  "name": "Xenapse Studio",
+  "version": "0.1.0",
+  "publisher": "Biowess",
+  "description": "A desktop editor for Xenapse diagrams: write FLOW and MINDMAP documents as text, style them with XCSS and see the result.",
+  "copyright": "Copyright 2026 Biowess",
+  "license": "Apache License, Version 2.0",
+  "trademark": "Xenapse Studio is a trademark of Biowess. See TRADEMARK.md.",
+  "repositoryUrl": "https://github.com/biowess/xenapse",
+  "releasesUrl": "https://github.com/biowess/xenapse/releases",
+  "language": {
+    "name": "Xenapse Language",
+    "releasesUrl": "https://github.com/biowess/xenapse/releases",
+    "repositoryUrl": "https://github.com/biowess/xenapse",
+    "license": "Apache License 2.0",
+    "copyright": "Copyright 2026 Biowess",
+    "minVersion": "0.1.0"
+  }
+}

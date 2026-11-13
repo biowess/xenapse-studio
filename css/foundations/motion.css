@@ -1,0 +1,30 @@
+/* Motion: subtle, short, no bounce or looping. Disabled under prefers-reduced-motion. */
+:root { --dur-fast: 120ms; --dur-med: 180ms; --ease-out: cubic-bezier(.2, .8, .2, 1); }
+
+.btn, .iconbtn, .menubar__btn, .menu__item, .bs-nav__item, .bs-row, .tab__main {
+  transition: background-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out);
+}
+.btn:active:not(:disabled), .iconbtn:active:not(:disabled) { transform: scale(.98); }
+
+.menu { animation: menu-in var(--dur-fast) var(--ease-out); }
+@keyframes menu-in { from { opacity: 0; transform: translateY(4px); } }
+
+dialog[open] { animation: dialog-in var(--dur-med) var(--ease-out); }
+dialog[open]::backdrop { animation: backdrop-in var(--dur-med) var(--ease-out); }
+@keyframes dialog-in { from { opacity: 0; transform: scale(.98); } }
+@keyframes backdrop-in { from { opacity: 0; } }
+
+.backstage:not([hidden]) { animation: backstage-in var(--dur-med) var(--ease-out); }
+@keyframes backstage-in { from { opacity: 0; transform: translateY(4px); } }
+
+.welcome:not([hidden]) { animation: welcome-in var(--dur-med) var(--ease-out); }
+@keyframes welcome-in { from { opacity: 0; transform: translateY(4px); } }
+
+.bs-content { animation: content-in var(--dur-fast) var(--ease-out); }
+@keyframes content-in { from { opacity: 0; } to { opacity: 1; } }
+
+.x-dropdown__menu { animation: menu-in var(--dur-fast) var(--ease-out); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; }
+}

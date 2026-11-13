@@ -1,0 +1,67 @@
+{
+  "root": "fonts",
+  "fonts": [
+    {
+      "family": "Spline Sans",
+      "directory": "spline-sans",
+      "files": [
+        "spline-sans/SplineSans[wght].ttf"
+      ],
+      "license": "spline-sans/OFL.txt"
+    },
+    {
+      "family": "Inter",
+      "directory": "inter",
+      "files": [
+        "inter/Inter-Italic[opsz,wght].ttf",
+        "inter/Inter[opsz,wght].ttf"
+      ],
+      "license": "inter/OFL.txt"
+    },
+    {
+      "family": "JetBrains Mono",
+      "directory": "jetbrains-mono",
+      "files": [
+        "jetbrains-mono/JetBrainsMono-Italic[wght].ttf",
+        "jetbrains-mono/JetBrainsMono[wght].ttf"
+      ],
+      "license": "jetbrains-mono/OFL.txt"
+    },
+    {
+      "family": "Fira Code",
+      "directory": "fira-code",
+      "files": [
+        "fira-code/FiraCode[wght].ttf"
+      ],
+      "license": "fira-code/OFL.txt"
+    },
+    {
+      "family": "Source Code Pro",
+      "directory": "source-code-pro",
+      "files": [
+        "source-code-pro/SourceCodePro-Italic[wght].ttf",
+        "source-code-pro/SourceCodePro[wght].ttf"
+      ],
+      "license": "source-code-pro/OFL.txt"
+    },
+    {
+      "family": "Inconsolata",
+      "directory": "inconsolata",
+      "files": [
+        "inconsolata/Inconsolata[wdth,wght].ttf"
+      ],
+      "license": "inconsolata/OFL.txt"
+    },
+    {
+      "family": "Space Mono",
+      "directory": "space-mono",
+      "files": [
+        "space-mono/SpaceMono-Bold.ttf",
+        "space-mono/SpaceMono-BoldItalic.ttf",
+        "space-mono/SpaceMono-Italic.ttf",
+        "space-mono/SpaceMono-Regular.ttf"
+      ],
+      "license": "space-mono/OFL.txt"
+    }
+  ]
+}

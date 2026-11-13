@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en" data-theme="light" data-accent="orange" data-density="comfortable">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xenapse Studio</title>
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/svg+xml" href="assets/brand/original/xenapse-symbol.svg">
+<script src="js/boot/theme-boot.js"></script>
+<link rel="preload" as="font" type="font/ttf" crossorigin href="fonts/spline-sans/SplineSans%5Bwght%5D.ttf">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="app" id="app">
+
+  <header class="topbar" id="topbar">
+    <button class="brand" data-cmd="welcome.show" aria-label="Home (Welcome Screen)" title="Home (Welcome Screen)">
+      <svg class="brand__symbol" viewBox="0 0 104 100" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M22 60L60 60C60 78.78 44.78 94 26 94L22 94Z"/>
+        <path fill-rule="evenodd" d="M0 0L26 0C69.08 0 104 34.92 104 78L104 100L78 100L78 78C78 49.28 54.72 26 26 26L26 60L26 94L26 100L0 74Z"/>
+      </svg>
+    </button>
+    <button class="topbar__save" id="topbar-save" data-cmd="file.saveNow" title="Save (Ctrl+S)" aria-label="Save"><i data-icon="save"></i></button>
+    <div class="topbar__drag" id="topbar-drag">
+      <div class="topbar__title" id="topbar-title" aria-live="polite">Xenapse Studio</div>
+    </div>
+    <div class="wincontrols" id="wincontrols">
+      <button class="wincontrols__btn" id="win-min" title="Minimize" aria-label="Minimize"><i data-icon="win-minimize"></i></button>
+      <button class="wincontrols__btn" id="win-max" title="Maximize" aria-label="Maximize"><i data-icon="win-maximize"></i></button>
+      <button class="wincontrols__btn wincontrols__btn--close" id="win-close" title="Close" aria-label="Close"><i data-icon="win-close"></i></button>
+    </div>
+  </header>
+
+  <nav class="menubar" id="menubar" aria-label="Application menu">
+    <button class="menubar__btn" data-menu="file" aria-haspopup="true">File</button>
+    <button class="menubar__btn" data-menu="edit" aria-haspopup="true" aria-expanded="false">Edit</button>
+    <button class="menubar__btn" data-menu="insert" aria-haspopup="true" aria-expanded="false">Insert</button>
+    <button class="menubar__btn" data-menu="view" aria-haspopup="true" aria-expanded="false">View</button>
+    <button class="menubar__btn" data-menu="help" aria-haspopup="true" aria-expanded="false">Help</button>
+  </nav>
+
+  <main class="workspace" id="workspace" data-eff="split-h">
+    <section class="pane pane--source" id="pane-source" aria-label="Source editor">
+      <div class="tabs" role="tablist" aria-label="Source files" id="tabs"></div>
+      <div class="editor" id="editor" data-lang="xnp">
+        <div class="editor__gutter" id="editor-gutter" aria-hidden="true"><pre class="editor__gutter-inner" id="editor-gutter-inner"></pre></div>
+        <div class="editor__body" id="editor-body">
+          <div class="editor__curline" id="editor-curline"></div>
+          <pre class="editor__hl" id="editor-hl" aria-hidden="true"></pre>
+          <textarea class="editor__input" id="editor-input" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off" wrap="off" aria-label="Source code"></textarea>
+          <div class="findbar" id="findbar" hidden role="search">
+            <div class="findbar__row">
+              <input class="input input--sm" id="find-q" type="text" placeholder="Find" aria-label="Find">
+              <span class="findbar__count" id="find-count" aria-live="polite"></span>
+              <button class="iconbtn iconbtn--sm" data-cmd="find.prev" title="Previous match (Shift+Enter)" aria-label="Previous match"><i data-icon="chevron-up"></i></button>
+              <button class="iconbtn iconbtn--sm" data-cmd="find.next" title="Next match (Enter)" aria-label="Next match"><i data-icon="chevron-down"></i></button>
+              <button class="iconbtn iconbtn--sm" id="find-case" data-cmd="find.case" title="Match case" aria-pressed="false" aria-label="Match case"><span class="aa">Aa</span></button>
+              <button class="iconbtn iconbtn--sm" data-cmd="find.close" title="Close (Esc)" aria-label="Close find"><i data-icon="x"></i></button>
+            </div>
+            <div class="findbar__row" id="find-replace-row" hidden>
+              <input class="input input--sm" id="find-r" type="text" placeholder="Replace" aria-label="Replace with">
+              <button class="btn btn--sm" data-cmd="find.replace">Replace</button>
+              <button class="btn btn--sm" data-cmd="find.replaceAll">All</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="problems-panel is-collapsed" id="problems-panel" role="region" aria-label="Problems">
+        <div class="problems-header" id="problems-header" tabindex="0" role="button" aria-expanded="false" aria-controls="problems-body">
+          <div class="problems-title">
+            <span>Problems</span>
+            <span class="problems-counts" id="problems-counts"></span>
+          </div>
+          <button class="problems-chevron" id="problems-chevron" aria-label="Toggle Problems panel" tabindex="-1"><i data-icon="chevron-down"></i></button>
+        </div>
+        <div class="problems-body" id="problems-body">
+          <div class="problems-list" id="problems-list" role="list"></div>
+        </div>
+        <div class="sr-only" id="problems-live" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <div class="divider" id="divider" role="separator" aria-orientation="vertical" aria-label="Resize source and preview" tabindex="0"></div>
+
+    <section class="pane pane--preview" id="pane-preview" aria-label="Diagram preview">
+      <div class="previewbar">
+        <div class="previewbar__title"><span>Preview</span><span class="badge" id="preview-badge"></span></div>
+        <div class="previewbar__tools">
+          <button class="iconbtn" data-cmd="zoom.out" title="Zoom out" aria-label="Zoom out"><i data-icon="minus"></i></button>
+          <output class="zoomlabel" id="zoom-label" title="Zoom level">100%</output>
+          <button class="iconbtn" data-cmd="zoom.in" title="Zoom in" aria-label="Zoom in"><i data-icon="plus"></i></button>
+          <span class="previewbar__sep"></span>
+          <button class="iconbtn" data-cmd="zoom.actual" title="Actual size (100%)" aria-label="Actual size"><span class="aa">1:1</span></button>
+          <button class="iconbtn" id="fit-btn" data-cmd="zoom.fit" title="Fit to view" aria-label="Fit to view" aria-pressed="true"><i data-icon="fit"></i></button>
+        </div>
+      </div>
+      <div class="canvas" id="canvas" tabindex="0" aria-label="Diagram canvas"><div class="stage" id="stage"></div></div>
+    </section>
+  </main>
+
+  <footer class="statusbar" id="statusbar">
+    <div class="statusbar__group">
+      <span class="status-item" id="st-state"></span>
+      <span class="status-item" id="st-module"></span>
+      <span class="status-item" id="st-pos">Ln 1, Col 1</span>
+      <button class="status-item status-item--btn" id="st-problems" title="Toggle Problems panel">No problems</button>
+    </div>
+    <div class="statusbar__group">
+      <span class="status-item" id="st-indent"></span>
+      <span class="status-item" id="st-lang"></span>
+      <span class="status-item" id="st-engine"></span>
+    </div>
+  </footer>
+
+  <div class="backstage" id="backstage" hidden></div>
+  <section class="welcome" id="welcome" hidden role="region" aria-label="Welcome to Xenapse Studio"></section>
+  <div id="menu-layer"></div>
+  <div id="dialog-root"></div>
+  <div class="toasts" id="toasts" role="status" aria-live="polite"></div>
+</div>
+
+<script src="js/core/utils.js"></script>
+<script src="js/services/native.js"></script>
+<script src="js/core/store.js"></script>
+<script src="js/core/commands.js"></script>
+<script src="js/ui/icons.js"></script>
+<script src="js/data/samples.js"></script>
+<script src="js/data/templates.js"></script>
+<script src="js/data/snippets.js"></script>
+<script src="js/data/fonts-catalog.js"></script>
+<script src="js/data/themes-catalog.js"></script>
+<script src="js/data/app-metadata.js"></script>
+<script src="js/core/markdown.js"></script>
+<script src="js/ui/dropdown.js"></script>
+<script src="js/services/preferences.js"></script>
+<script src="js/services/file-service.js"></script>
+<script src="js/services/registry.js"></script>
+<script src="js/services/compiler-service.js"></script>
+<script src="js/services/engine-adapter.js"></script>
+<script src="js/ui/toasts.js"></script>
+<script src="js/ui/dialogs.js"></script>
+<script src="js/ui/menus.js"></script>
+<script src="js/features/document.js"></script>
+<script src="js/features/dependency.js"></script>
+<script src="js/features/xcss.js"></script>
+<script src="js/features/highlight.js"></script>
+<script src="js/features/editor.js"></script>
+<script src="js/features/find.js"></script>
+<script src="js/features/diagnostics.js"></script>
+<script src="js/features/preview.js"></script>
+<script src="js/features/files.js"></script>
+<script src="js/features/welcome.js"></script>
+<script src="js/features/layout.js"></script>
+<script src="js/features/titlebar.js"></script>
+<script src="js/features/shortcuts.js"></script>
+<script src="js/backstage/panels-file.js"></script>
+<script src="js/backstage/panel-preferences.js"></script>
+<script src="js/backstage/panel-docs.js"></script>
+<script src="js/backstage/panel-about.js"></script>
+<script src="js/backstage/backstage.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

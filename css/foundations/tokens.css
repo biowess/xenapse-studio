@@ -1,0 +1,22 @@
+/* Design tokens: non-colour. Colour lives in themes/. */
+:root {
+  /* Official brand palette */
+  --brand-navy: #172638;
+  --brand-jade: #4b7571;
+  --brand-orange: #a55b3f;
+  --brand-slate: #5c6770;
+
+  /* Typography: bundled fonts (fonts/fonts.css) plus explicit system fallbacks only. */
+  --font-ui: "Spline Sans", "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", "Fira Code", Consolas, Menlo, "DejaVu Sans Mono", monospace;
+  --font-display: var(--font-ui);
+
+  --fs-xs: 11px; --fs-sm: 12px; --fs-md: 13px; --fs-lg: 15px; --fs-xl: 22px; --fs-2xl: 34px;
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-5: 24px; --sp-6: 32px; --sp-7: 48px;
+  --radius: 3px; --radius-lg: 4px;
+
+  --ctl-h: 28px; --topbar-h: 40px; --status-h: 24px; --tab-h: 34px;
+  --editor-size: 13px; --editor-lh: 21px; --tab-size: 4;
+  --divider-w: 7px;
+}
+:root[data-density="compact"] { --ctl-h: 24px; --topbar-h: 36px; --status-h: 22px; --tab-h: 30px; }

@@ -1,0 +1,503 @@
+[
+  {
+    "id": "amiri",
+    "family": "Amiri",
+    "category": "serif",
+    "isMonospace": false,
+    "filesCount": 4,
+    "weights": [
+      "Bold (700)",
+      "Regular (400)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "arimo",
+    "family": "Arimo",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 10,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "bitter",
+    "family": "Bitter",
+    "category": "serif",
+    "isMonospace": false,
+    "filesCount": 12,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "cairo",
+    "family": "Cairo",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 6,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": false,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "caveat",
+    "family": "Caveat",
+    "category": "display",
+    "isMonospace": false,
+    "filesCount": 5,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": false,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "cinzel",
+    "family": "Cinzel",
+    "category": "serif",
+    "isMonospace": false,
+    "filesCount": 6,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": false,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "cormorant-garamond",
+    "family": "Cormorant Garamond",
+    "category": "serif",
+    "isMonospace": false,
+    "filesCount": 10,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "eb-garamond",
+    "family": "EB Garamond",
+    "category": "serif",
+    "isMonospace": false,
+    "filesCount": 12,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "fira-code",
+    "family": "Fira Code",
+    "category": "monospace",
+    "isMonospace": true,
+    "filesCount": 5,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": false,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "fira-sans",
+    "family": "Fira Sans",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 4,
+    "weights": [
+      "Bold (700)",
+      "Medium (500)",
+      "Regular (400)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "inconsolata",
+    "family": "Inconsolata",
+    "category": "monospace",
+    "isMonospace": true,
+    "filesCount": 6,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": false,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "inter",
+    "family": "Inter",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 12,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "jetbrains-mono",
+    "family": "JetBrains Mono",
+    "category": "monospace",
+    "isMonospace": true,
+    "filesCount": 12,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "lato",
+    "family": "Lato",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 6,
+    "weights": [
+      "ExtraBold (800)",
+      "Bold (700)",
+      "Medium (500)",
+      "Regular (400)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "libre-baskerville",
+    "family": "Libre Baskerville",
+    "category": "serif",
+    "isMonospace": false,
+    "filesCount": 10,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "lora",
+    "family": "Lora",
+    "category": "serif",
+    "isMonospace": false,
+    "filesCount": 10,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "merriweather",
+    "family": "Merriweather",
+    "category": "serif",
+    "isMonospace": false,
+    "filesCount": 12,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "montserrat",
+    "family": "Montserrat",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 12,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "noto-sans-arabic",
+    "family": "Noto Sans Arabic",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 6,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": false,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "open-dyslexic",
+    "family": "OpenDyslexic",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 4,
+    "weights": [
+      "Bold (700)",
+      "Regular (400)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "open-sans",
+    "family": "Open Sans",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 12,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "oswald",
+    "family": "Oswald",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 5,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": false,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "outfit",
+    "family": "Outfit",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 6,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": false,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "pacifico",
+    "family": "Pacifico",
+    "category": "display",
+    "isMonospace": false,
+    "filesCount": 1,
+    "weights": [
+      "Regular (400)"
+    ],
+    "hasItalic": false,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "playfair-display",
+    "family": "Playfair Display",
+    "category": "serif",
+    "isMonospace": false,
+    "filesCount": 12,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "plus-jakarta-sans",
+    "family": "Plus Jakarta Sans",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 12,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "poppins",
+    "family": "Poppins",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 7,
+    "weights": [
+      "ExtraBold (800)",
+      "Bold (700)",
+      "Medium (500)",
+      "Regular (400)",
+      "SemiBold (600)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "pt-serif",
+    "family": "PT Serif",
+    "category": "serif",
+    "isMonospace": false,
+    "filesCount": 4,
+    "weights": [
+      "Bold (700)",
+      "Regular (400)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "raleway",
+    "family": "Raleway",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 12,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "roboto",
+    "family": "Roboto",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 12,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "scheherazade-new",
+    "family": "Scheherazade New",
+    "category": "serif",
+    "isMonospace": false,
+    "filesCount": 4,
+    "weights": [
+      "Bold (700)",
+      "Medium (500)",
+      "Regular (400)",
+      "SemiBold (600)"
+    ],
+    "hasItalic": false,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "source-code-pro",
+    "family": "Source Code Pro",
+    "category": "monospace",
+    "isMonospace": true,
+    "filesCount": 12,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "source-sans-3",
+    "family": "Source Sans 3",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 12,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "space-grotesk",
+    "family": "Space Grotesk",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 5,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": false,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "space-mono",
+    "family": "Space Mono",
+    "category": "monospace",
+    "isMonospace": true,
+    "filesCount": 4,
+    "weights": [
+      "Bold (700)",
+      "Regular (400)"
+    ],
+    "hasItalic": true,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "spline-sans",
+    "family": "Spline Sans",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 5,
+    "weights": [
+      "Variable (100–900)"
+    ],
+    "hasItalic": false,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "tajawal",
+    "family": "Tajawal",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 3,
+    "weights": [
+      "Bold (700)",
+      "Medium (500)",
+      "Regular (400)"
+    ],
+    "hasItalic": false,
+    "license": "OFL.txt"
+  },
+  {
+    "id": "tex-gyre-heros",
+    "family": "TeX Gyre Heros",
+    "category": "sans-serif",
+    "isMonospace": false,
+    "filesCount": 8,
+    "weights": [
+      "Bold (700)",
+      "Regular (400)"
+    ],
+    "hasItalic": true,
+    "license": null
+  },
+  {
+    "id": "tex-gyre-pagella",
+    "family": "TeX Gyre Pagella",
+    "category": "serif",
+    "isMonospace": false,
+    "filesCount": 4,
+    "weights": [
+      "Bold (700)",
+      "Regular (400)"
+    ],
+    "hasItalic": true,
+    "license": null
+  },
+  {
+    "id": "tex-gyre-termes",
+    "family": "TeX Gyre Termes",
+    "category": "serif",
+    "isMonospace": false,
+    "filesCount": 4,
+    "weights": [
+      "Bold (700)",
+      "Regular (400)"
+    ],
+    "hasItalic": true,
+    "license": null
+  }
+]

@@ -1,0 +1,38 @@
+/* Custom top bar: drag region, document name, Save button, window controls. */
+.topbar { user-select: none; -webkit-user-select: none; }
+
+.topbar__drag { flex: 1 1 0; min-width: 0; height: 100%; display: flex; align-items: center; justify-content: center; padding: 0 16px; }
+
+.topbar__save { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 26px; margin: 0 8px 0 0; border-radius: var(--radius); color: var(--topbar-text); }
+.topbar__save:hover { background: var(--topbar-hover); }
+.topbar__save:focus-visible { outline-offset: -2px; }
+
+.topbar__btn { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 26px; margin: 0 4px 0 0; border-radius: var(--radius); color: var(--topbar-text); background: transparent; border: none; cursor: pointer; }
+.topbar__btn:hover { background: var(--topbar-hover); }
+.topbar__btn:focus-visible { outline-offset: -2px; }
+
+.wincontrols { flex: none; align-self: stretch; display: flex; }
+.wincontrols__btn { width: 46px; height: 100%; display: inline-flex; align-items: center; justify-content: center; border-radius: 0; color: var(--topbar-text); }
+.wincontrols__btn:hover { background: var(--topbar-hover); }
+.wincontrols__btn:focus-visible { outline-offset: -2px; }
+.wincontrols__btn--close:hover { background: #C42B1C; color: #fff; }
+.wincontrols__btn--close:active { background: #A82417; color: #fff; }
+
+/* Drag region (Electron only): everything interactive is no-drag. */
+html[data-native="1"] .topbar { -webkit-app-region: drag; }
+html[data-native="1"] .brand,
+html[data-native="1"] .menubar,
+html[data-native="1"] .menubar__btn,
+html[data-native="1"] .topbar__save,
+html[data-native="1"] .topbar__btn,
+html[data-native="1"] .wincontrols,
+html[data-native="1"] .wincontrols__btn,
+html[data-native="1"] .menu,
+html[data-native="1"] #menu-layer { -webkit-app-region: no-drag; }
+/* A modal dialog's backdrop must not leave the bar draggable underneath it. */
+html[data-native="1"]:has(dialog[open]) .topbar,
+html[data-native="1"]:has(.dep-overlay:not([hidden])) .topbar { -webkit-app-region: no-drag; }
+
+/* Unfocused window: dim the bar's content slightly. */
+html[data-window-focused="false"] .topbar > *,
+html[data-window-focused="false"] .menubar > * { opacity: .62; }

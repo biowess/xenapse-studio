@@ -1,0 +1,12 @@
+#menu-layer { position: fixed; inset: 0 auto auto 0; z-index: 60; }
+.menu { position: fixed; min-width: 232px; max-width: min(340px, calc(100vw - 16px)); max-height: calc(100vh - 56px); overflow: auto; background: var(--menu-bg); border: 1px solid var(--border-strong); border-radius: var(--radius-lg); padding: 4px 0; }
+.menu__heading { padding: 8px 14px 3px; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); font-weight: 600; }
+.menu__sep { height: 1px; margin: 4px 0; background: var(--border); }
+.menu__item { display: flex; align-items: center; gap: 10px; width: 100%; padding: 0 14px 0 10px; height: 28px; text-align: left; color: var(--text); font-size: var(--fs-md); }
+.menu__item:hover:not(:disabled), .menu__item:focus-visible { background: var(--accent-soft); outline: none; }
+.menu__item:disabled { color: var(--faint); }
+.menu__check { width: 14px; height: 14px; flex: none; color: var(--accent); }
+.menu__check svg { width: 100%; height: 100%; }
+.menu__label { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.menu__hint { font-size: var(--fs-xs); color: var(--faint); }
+.menu__item .kbd { margin-left: 16px; }

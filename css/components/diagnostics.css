@@ -1,0 +1,285 @@
+/* Problems panel and gutter diagnostic markers */
+
+.problems-panel {
+  position: relative;
+  flex: none;
+  height: 160px;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  font-family: var(--font-ui);
+  font-size: var(--fs-sm);
+  z-index: 10;
+}
+
+.problems-panel.is-collapsed {
+  height: auto;
+}
+
+.problems-panel.is-collapsed .problems-body {
+  display: none;
+}
+
+.problems-panel.is-collapsed .problems-chevron {
+  transform: rotate(-90deg);
+}
+
+.problems-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 28px;
+  padding: 0 12px;
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  user-select: none;
+  flex: none;
+}
+
+.problems-header:hover {
+  background: var(--surface-3);
+}
+
+.problems-header:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: -2px;
+}
+
+.problems-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: var(--text);
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.problems-counts {
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  font-variant-numeric: tabular-nums;
+}
+
+.problems-chevron {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  transition: transform 0.15s ease;
+  pointer-events: none;
+}
+
+.problems-body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  background: var(--editor-bg);
+}
+
+.problems-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.problems-row {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 6px 14px 6px 12px;
+  border-bottom: 1px solid var(--border);
+  border-left: 3px solid transparent;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+  transition: background 0.1s ease;
+}
+
+.problems-row:hover {
+  background: var(--curline);
+}
+
+.problems-row:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: -2px;
+}
+
+.problems-row--error {
+  border-left-color: var(--danger);
+}
+
+.problems-row--warning {
+  border-left-color: var(--accent);
+}
+
+.problems-row-main {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  line-height: 1.4;
+  min-width: 0;
+}
+
+.problems-icon {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  vertical-align: -1px;
+}
+
+.problems-icon--error {
+  color: var(--danger);
+}
+
+.problems-icon--warning {
+  color: var(--accent);
+}
+
+.problems-code {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  flex: none;
+}
+
+.problems-msg {
+  color: var(--text);
+  flex: 1;
+  min-width: 0;
+  word-break: break-word;
+}
+
+.problems-loc {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--faint);
+  flex: none;
+  margin-left: auto;
+}
+
+.problems-help {
+  color: var(--muted);
+  font-size: var(--fs-xs);
+  padding-left: 22px;
+  line-height: 1.35;
+  white-space: pre-wrap;
+}
+
+.problems-note {
+  color: var(--secondary);
+  font-size: var(--fs-xs);
+  padding-left: 22px;
+  cursor: pointer;
+  line-height: 1.35;
+}
+
+.problems-note:hover {
+  text-decoration: underline;
+}
+
+.problems-note:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 1px;
+}
+
+.problems-actions {
+  display: flex;
+  gap: 8px;
+  padding-left: 22px;
+  margin-top: 4px;
+}
+
+.problems-empty {
+  padding: 28px 16px;
+  text-align: center;
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+.problems-overflow {
+  padding: 8px 12px;
+  text-align: center;
+  color: var(--muted);
+  font-size: var(--fs-xs);
+  font-style: italic;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Status bar problem summary */
+.status-item--btn {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.status-item--btn:hover {
+  color: var(--text);
+}
+
+.status-item--btn.has-errors {
+  color: var(--danger);
+  font-weight: 500;
+}
+
+.status-item--btn.has-warnings {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* Editor gutter markers */
+.editor__gutter-inner span {
+  position: relative;
+}
+
+.editor__gutter-inner span.has-error {
+  color: var(--danger);
+  font-weight: 600;
+}
+
+.editor__gutter-inner span.has-warning {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.editor__gutter-inner span.has-error::before,
+.editor__gutter-inner span.has-warning::before {
+  content: "";
+  position: absolute;
+  left: -11px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+}
+
+.editor__gutter-inner span.has-error::before {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--danger);
+}
+
+.editor__gutter-inner span.has-warning::before {
+  width: 7px;
+  height: 6px;
+  background: var(--accent);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}

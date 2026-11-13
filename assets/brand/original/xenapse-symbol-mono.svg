@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="100" viewBox="0 0 104 100" role="img" aria-labelledby="t d">
+  <title id="t">Xenapse symbol (monochrome)</title>
+  <desc id="d">Xenapse emblem: a vertical spine with a chamfered foot that resolves into a sweeping quarter-circle arch and a solid quarter-disc terminal.</desc>
+  <path id="accent" fill="#172638" fill-rule="evenodd" d="M22 60L60 60C60 78.78 44.78 94 26 94L22 94Z"/>
+  <path id="spine-and-arch" fill="#172638" fill-rule="evenodd" d="M0 0L26 0C69.08 0 104 34.92 104 78L104 100L78 100L78 78C78 49.28 54.72 26 26 26L26 60L26 94L26 100L0 74Z"/>
+</svg>

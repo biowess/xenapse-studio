@@ -1,0 +1,770 @@
+/* Migrated Laurevine Loto themes (32 themes) */
+
+:root[data-theme="loto-light"] {
+  color-scheme: light;
+  --bg: #F8F7F3; --surface: #FDFCFA; --surface-2: #EFEBE0; --surface-3: #E6DFCB;
+  --border: #E3E0D6; --border-strong: #D3CFC2;
+  --text: #292823; --text-2: #625F58; --muted: #625F58; --faint: #D3CFC2;
+  --accent: #876B3E; --accent-hover: #725B32; --accent-soft: rgba(135,107,62,0.12); --on-accent: #FFFFFF;
+  --secondary: #63724A; --secondary-soft: rgba(99,114,74,0.12);
+  --focus: #876B3E; --selection: #F1EBDD;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #F0EFE9; --topbar-text: #292823; --topbar-muted: #625F58; --topbar-hover: rgba(41,40,35,0.06);
+  --editor-bg: #FBFAF6; --gutter-bg: #F8F7F3; --gutter-text: #625F58; --gutter-active: #292823; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #F8F7F3; --canvas-dot: #D3CFC2; --paper: #FDFCFA; --paper-border: #E3E0D6;
+  --menu-bg: #FDFCFA; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #F0EFE9; --bs-nav-text: #292823; --bs-nav-muted: #625F58; --bs-nav-hover: rgba(41,40,35,0.05); --bs-nav-active: #F1EBDD;
+  /* syntax */
+  --syn-comment: #625F58; --syn-keyword: #725B32; --syn-module: #63724A; --syn-string: #8A5A2B; --syn-tag: #625F58;
+  --syn-process: #63724A; --syn-decision: #8A5A2B; --syn-io: #4F6F8A; --syn-emph: #876B3E; --syn-op: #625F58; --syn-brace: #625F58;
+  --syn-sel: #725B32; --syn-class: #63724A; --syn-prop: #4F6F8A; --syn-num: #8A5A2B;
+  /* diagram sample */
+  --dg-ink: #292823; --dg-edge: #625F58; --dg-proc-fill: #FBFAF6; --dg-proc-stroke: #876B3E;
+  --dg-dec-fill: #F1EBDD; --dg-dec-stroke: #725B32; --dg-term-fill: #876B3E; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #EFEBE0; --dg-io-stroke: #D3CFC2; --dg-tag: #625F58;
+}
+
+:root[data-theme="loto-dark"] {
+  color-scheme: dark;
+  --bg: #201F1B; --surface: #262521; --surface-2: #302E28; --surface-3: #3B382E;
+  --border: #35332D; --border-strong: #47443B;
+  --text: #E8E4DA; --text-2: #ABA699; --muted: #ABA699; --faint: #47443B;
+  --accent: #B39560; --accent-hover: #C9AE7C; --accent-soft: rgba(179,149,96,0.18); --on-accent: #101820;
+  --secondary: #A5B887; --secondary-soft: rgba(165,184,135,0.2);
+  --focus: #B39560; --selection: #3A3424;
+  --danger: #F4918A; --success: #6DB58A;
+  --topbar-bg: #171613; --topbar-text: #E8E4DA; --topbar-muted: #ABA699; --topbar-hover: rgba(232,228,218,0.08);
+  --editor-bg: #2B2A25; --gutter-bg: #201F1B; --gutter-text: #ABA699; --gutter-active: #E8E4DA; --curline: rgba(255,255,255,.05);
+  --canvas-bg: #201F1B; --canvas-dot: #47443B; --paper: #262521; --paper-border: #35332D;
+  --menu-bg: #262521; --overlay: rgba(0,0,0,.68);
+  --bs-nav-bg: #171613; --bs-nav-text: #E8E4DA; --bs-nav-muted: #ABA699; --bs-nav-hover: rgba(232,228,218,0.07); --bs-nav-active: #3A3424;
+  /* syntax */
+  --syn-comment: #ABA699; --syn-keyword: #CBB280; --syn-module: #A5B887; --syn-string: #D2A66A; --syn-tag: #ABA699;
+  --syn-process: #A5B887; --syn-decision: #D2A66A; --syn-io: #8FB0CC; --syn-emph: #B39560; --syn-op: #ABA699; --syn-brace: #ABA699;
+  --syn-sel: #CBB280; --syn-class: #A5B887; --syn-prop: #8FB0CC; --syn-num: #D2A66A;
+  /* diagram sample */
+  --dg-ink: #E8E4DA; --dg-edge: #ABA699; --dg-proc-fill: #2B2A25; --dg-proc-stroke: #B39560;
+  --dg-dec-fill: #3A3424; --dg-dec-stroke: #C9AE7C; --dg-term-fill: #B39560; --dg-term-ink: #101820;
+  --dg-io-fill: #302E28; --dg-io-stroke: #47443B; --dg-tag: #ABA699;
+}
+
+:root[data-theme="plum-classic"] {
+  color-scheme: light;
+  --bg: #F5F6F8; --surface: #FFFFFF; --surface-2: #E7E9F1; --surface-3: #D8DAE9;
+  --border: #DEE0E8; --border-strong: #CCCED9;
+  --text: #292A2D; --text-2: #6F7075; --muted: #6F7075; --faint: #CCCED9;
+  --accent: #313A75; --accent-hover: #252D5E; --accent-soft: rgba(49,58,117,0.12); --on-accent: #FFFFFF;
+  --secondary: #2F6F73; --secondary-soft: rgba(47,111,115,0.12);
+  --focus: #313A75; --selection: #E8EAF5;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #E8EAEF; --topbar-text: #292A2D; --topbar-muted: #6F7075; --topbar-hover: rgba(41,42,45,0.06);
+  --editor-bg: #FBFAFD; --gutter-bg: #F5F6F8; --gutter-text: #6F7075; --gutter-active: #292A2D; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #F5F6F8; --canvas-dot: #CCCED9; --paper: #FFFFFF; --paper-border: #DEE0E8;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #E8EAEF; --bs-nav-text: #292A2D; --bs-nav-muted: #6F7075; --bs-nav-hover: rgba(41,42,45,0.05); --bs-nav-active: #E8EAF5;
+  /* syntax */
+  --syn-comment: #6F7075; --syn-keyword: #313A75; --syn-module: #2F6F73; --syn-string: #A2562C; --syn-tag: #6F7075;
+  --syn-process: #2F6F73; --syn-decision: #A2562C; --syn-io: #3F5F8F; --syn-emph: #313A75; --syn-op: #6F7075; --syn-brace: #6F7075;
+  --syn-sel: #313A75; --syn-class: #2F6F73; --syn-prop: #3F5F8F; --syn-num: #A2562C;
+  /* diagram sample */
+  --dg-ink: #292A2D; --dg-edge: #6F7075; --dg-proc-fill: #FBFAFD; --dg-proc-stroke: #313A75;
+  --dg-dec-fill: #E8EAF5; --dg-dec-stroke: #252D5E; --dg-term-fill: #313A75; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #E7E9F1; --dg-io-stroke: #CCCED9; --dg-tag: #6F7075;
+}
+
+:root[data-theme="paper"] {
+  color-scheme: light;
+  --bg: #FAF9F6; --surface: #FFFFFF; --surface-2: #EAE8DE; --surface-3: #DDDAC9;
+  --border: #DEDBD1; --border-strong: #C8C5BB;
+  --text: #292822; --text-2: #77756C; --muted: #77756C; --faint: #C8C5BB;
+  --accent: #6C6950; --accent-hover: #544F3A; --accent-soft: rgba(108,105,80,0.12); --on-accent: #FFFFFF;
+  --secondary: #3D6B52; --secondary-soft: rgba(61,107,82,0.12);
+  --focus: #6C6950; --selection: #EAE7D6;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #F0EEE8; --topbar-text: #292822; --topbar-muted: #77756C; --topbar-hover: rgba(41,40,34,0.06);
+  --editor-bg: #FAF9F5; --gutter-bg: #FAF9F6; --gutter-text: #77756C; --gutter-active: #292822; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #FAF9F6; --canvas-dot: #C8C5BB; --paper: #FFFFFF; --paper-border: #DEDBD1;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #F0EEE8; --bs-nav-text: #292822; --bs-nav-muted: #77756C; --bs-nav-hover: rgba(41,40,34,0.05); --bs-nav-active: #EAE7D6;
+  /* syntax */
+  --syn-comment: #77756C; --syn-keyword: #5C5840; --syn-module: #3D6B52; --syn-string: #8B5E20; --syn-tag: #77756C;
+  --syn-process: #3D6B52; --syn-decision: #8B5E20; --syn-io: #4A5E7A; --syn-emph: #6C6950; --syn-op: #77756C; --syn-brace: #77756C;
+  --syn-sel: #5C5840; --syn-class: #3D6B52; --syn-prop: #4A5E7A; --syn-num: #8B5E20;
+  /* diagram sample */
+  --dg-ink: #292822; --dg-edge: #77756C; --dg-proc-fill: #FAF9F5; --dg-proc-stroke: #6C6950;
+  --dg-dec-fill: #EAE7D6; --dg-dec-stroke: #544F3A; --dg-term-fill: #6C6950; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #EAE8DE; --dg-io-stroke: #C8C5BB; --dg-tag: #77756C;
+}
+
+:root[data-theme="porcelain"] {
+  color-scheme: light;
+  --bg: #F7F9FB; --surface: #FFFFFF; --surface-2: #E1EAF3; --surface-3: #D3E1EE;
+  --border: #D7DFE8; --border-strong: #C4CFD9;
+  --text: #263343; --text-2: #708091; --muted: #708091; --faint: #C4CFD9;
+  --accent: #3E668F; --accent-hover: #2D4F70; --accent-soft: rgba(62,102,143,0.12); --on-accent: #FFFFFF;
+  --secondary: #2A7068; --secondary-soft: rgba(42,112,104,0.12);
+  --focus: #3E668F; --selection: #DCEAF8;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #EDF1F5; --topbar-text: #263343; --topbar-muted: #708091; --topbar-hover: rgba(38,51,67,0.06);
+  --editor-bg: #F6F8FB; --gutter-bg: #F7F9FB; --gutter-text: #708091; --gutter-active: #263343; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #F7F9FB; --canvas-dot: #C4CFD9; --paper: #FFFFFF; --paper-border: #D7DFE8;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #EDF1F5; --bs-nav-text: #263343; --bs-nav-muted: #708091; --bs-nav-hover: rgba(38,51,67,0.05); --bs-nav-active: #DCEAF8;
+  /* syntax */
+  --syn-comment: #708091; --syn-keyword: #2E5A80; --syn-module: #2A7068; --syn-string: #8B5A2A; --syn-tag: #708091;
+  --syn-process: #2A7068; --syn-decision: #8B5A2A; --syn-io: #3D5F90; --syn-emph: #3E668F; --syn-op: #708091; --syn-brace: #708091;
+  --syn-sel: #2E5A80; --syn-class: #2A7068; --syn-prop: #3D5F90; --syn-num: #8B5A2A;
+  /* diagram sample */
+  --dg-ink: #263343; --dg-edge: #708091; --dg-proc-fill: #F6F8FB; --dg-proc-stroke: #3E668F;
+  --dg-dec-fill: #DCEAF8; --dg-dec-stroke: #2D4F70; --dg-term-fill: #3E668F; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #E1EAF3; --dg-io-stroke: #C4CFD9; --dg-tag: #708091;
+}
+
+:root[data-theme="rosewater"] {
+  color-scheme: light;
+  --bg: #FCF7F7; --surface: #FFFFFF; --surface-2: #F0DDE4; --surface-3: #EAD1D9;
+  --border: #E8D7DD; --border-strong: #D9C4CB;
+  --text: #38292F; --text-2: #8C737D; --muted: #8C737D; --faint: #D9C4CB;
+  --accent: #9A4D68; --accent-hover: #7A3A52; --accent-soft: rgba(154,77,104,0.12); --on-accent: #FFFFFF;
+  --secondary: #2A6B60; --secondary-soft: rgba(42,107,96,0.12);
+  --focus: #9A4D68; --selection: #F4DFE7;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #F5EBED; --topbar-text: #38292F; --topbar-muted: #8C737D; --topbar-hover: rgba(56,41,47,0.06);
+  --editor-bg: #FCF7F8; --gutter-bg: #FCF7F7; --gutter-text: #8C737D; --gutter-active: #38292F; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #FCF7F7; --canvas-dot: #D9C4CB; --paper: #FFFFFF; --paper-border: #E8D7DD;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #F5EBED; --bs-nav-text: #38292F; --bs-nav-muted: #8C737D; --bs-nav-hover: rgba(56,41,47,0.05); --bs-nav-active: #F4DFE7;
+  /* syntax */
+  --syn-comment: #8C737D; --syn-keyword: #8A3C5C; --syn-module: #2A6B60; --syn-string: #8B4A20; --syn-tag: #8C737D;
+  --syn-process: #2A6B60; --syn-decision: #8B4A20; --syn-io: #4A4880; --syn-emph: #9A4D68; --syn-op: #8C737D; --syn-brace: #8C737D;
+  --syn-sel: #8A3C5C; --syn-class: #2A6B60; --syn-prop: #4A4880; --syn-num: #8B4A20;
+  /* diagram sample */
+  --dg-ink: #38292F; --dg-edge: #8C737D; --dg-proc-fill: #FCF7F8; --dg-proc-stroke: #9A4D68;
+  --dg-dec-fill: #F4DFE7; --dg-dec-stroke: #7A3A52; --dg-term-fill: #9A4D68; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #F0DDE4; --dg-io-stroke: #D9C4CB; --dg-tag: #8C737D;
+}
+
+:root[data-theme="sage"] {
+  color-scheme: light;
+  --bg: #F7F9F5; --surface: #FFFFFF; --surface-2: #E2EBDC; --surface-3: #D5E2CE;
+  --border: #D9E1D4; --border-strong: #C6D2C0;
+  --text: #29332A; --text-2: #758174; --muted: #758174; --faint: #C6D2C0;
+  --accent: #52734F; --accent-hover: #3D583B; --accent-soft: rgba(82,115,79,0.12); --on-accent: #FFFFFF;
+  --secondary: #2A6B5A; --secondary-soft: rgba(42,107,90,0.12);
+  --focus: #52734F; --selection: #DFEBDD;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #EDF1E8; --topbar-text: #29332A; --topbar-muted: #758174; --topbar-hover: rgba(41,51,42,0.06);
+  --editor-bg: #F6F9F4; --gutter-bg: #F7F9F5; --gutter-text: #758174; --gutter-active: #29332A; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #F7F9F5; --canvas-dot: #C6D2C0; --paper: #FFFFFF; --paper-border: #D9E1D4;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #EDF1E8; --bs-nav-text: #29332A; --bs-nav-muted: #758174; --bs-nav-hover: rgba(41,51,42,0.05); --bs-nav-active: #DFEBDD;
+  /* syntax */
+  --syn-comment: #758174; --syn-keyword: #406040; --syn-module: #2A6B5A; --syn-string: #7A5A20; --syn-tag: #758174;
+  --syn-process: #2A6B5A; --syn-decision: #7A5A20; --syn-io: #3A5A7A; --syn-emph: #52734F; --syn-op: #758174; --syn-brace: #758174;
+  --syn-sel: #406040; --syn-class: #2A6B5A; --syn-prop: #3A5A7A; --syn-num: #7A5A20;
+  /* diagram sample */
+  --dg-ink: #29332A; --dg-edge: #758174; --dg-proc-fill: #F6F9F4; --dg-proc-stroke: #52734F;
+  --dg-dec-fill: #DFEBDD; --dg-dec-stroke: #3D583B; --dg-term-fill: #52734F; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #E2EBDC; --dg-io-stroke: #C6D2C0; --dg-tag: #758174;
+}
+
+:root[data-theme="lavender-mist"] {
+  color-scheme: light;
+  --bg: #F8F7FC; --surface: #FFFFFF; --surface-2: #EAE5F6; --surface-3: #E0D8F2;
+  --border: #DFD8EF; --border-strong: #CEC6E4;
+  --text: #302B42; --text-2: #7C7495; --muted: #7C7495; --faint: #CEC6E4;
+  --accent: #7761B5; --accent-hover: #5E4A99; --accent-soft: rgba(119,97,181,0.12); --on-accent: #FFFFFF;
+  --secondary: #3A6B7A; --secondary-soft: rgba(58,107,122,0.12);
+  --focus: #7761B5; --selection: #E7E0FA;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #EFECF8; --topbar-text: #302B42; --topbar-muted: #7C7495; --topbar-hover: rgba(48,43,66,0.06);
+  --editor-bg: #F7F6FC; --gutter-bg: #F8F7FC; --gutter-text: #7C7495; --gutter-active: #302B42; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #F8F7FC; --canvas-dot: #CEC6E4; --paper: #FFFFFF; --paper-border: #DFD8EF;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #EFECF8; --bs-nav-text: #302B42; --bs-nav-muted: #7C7495; --bs-nav-hover: rgba(48,43,66,0.05); --bs-nav-active: #E7E0FA;
+  /* syntax */
+  --syn-comment: #7C7495; --syn-keyword: #6550A0; --syn-module: #3A6B7A; --syn-string: #8A5A20; --syn-tag: #7C7495;
+  --syn-process: #3A6B7A; --syn-decision: #8A5A20; --syn-io: #4050A0; --syn-emph: #7761B5; --syn-op: #7C7495; --syn-brace: #7C7495;
+  --syn-sel: #6550A0; --syn-class: #3A6B7A; --syn-prop: #4050A0; --syn-num: #8A5A20;
+  /* diagram sample */
+  --dg-ink: #302B42; --dg-edge: #7C7495; --dg-proc-fill: #F7F6FC; --dg-proc-stroke: #7761B5;
+  --dg-dec-fill: #E7E0FA; --dg-dec-stroke: #5E4A99; --dg-term-fill: #7761B5; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #EAE5F6; --dg-io-stroke: #CEC6E4; --dg-tag: #7C7495;
+}
+
+:root[data-theme="arctic"] {
+  color-scheme: light;
+  --bg: #F5F8FA; --surface: #FFFFFF; --surface-2: #DDE9EF; --surface-3: #D0E1E9;
+  --border: #D5E0E6; --border-strong: #C1D0D8;
+  --text: #26333B; --text-2: #71838D; --muted: #71838D; --faint: #C1D0D8;
+  --accent: #397F91; --accent-hover: #2A6070; --accent-soft: rgba(57,127,145,0.12); --on-accent: #FFFFFF;
+  --secondary: #2A7065; --secondary-soft: rgba(42,112,101,0.12);
+  --focus: #397F91; --selection: #D7EDF2;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #EAF0F4; --topbar-text: #26333B; --topbar-muted: #71838D; --topbar-hover: rgba(38,51,59,0.06);
+  --editor-bg: #F4F8FA; --gutter-bg: #F5F8FA; --gutter-text: #71838D; --gutter-active: #26333B; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #F5F8FA; --canvas-dot: #C1D0D8; --paper: #FFFFFF; --paper-border: #D5E0E6;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #EAF0F4; --bs-nav-text: #26333B; --bs-nav-muted: #71838D; --bs-nav-hover: rgba(38,51,59,0.05); --bs-nav-active: #D7EDF2;
+  /* syntax */
+  --syn-comment: #71838D; --syn-keyword: #2A6F82; --syn-module: #2A7065; --syn-string: #8A5A2A; --syn-tag: #71838D;
+  --syn-process: #2A7065; --syn-decision: #8A5A2A; --syn-io: #3A5A8A; --syn-emph: #397F91; --syn-op: #71838D; --syn-brace: #71838D;
+  --syn-sel: #2A6F82; --syn-class: #2A7065; --syn-prop: #3A5A8A; --syn-num: #8A5A2A;
+  /* diagram sample */
+  --dg-ink: #26333B; --dg-edge: #71838D; --dg-proc-fill: #F4F8FA; --dg-proc-stroke: #397F91;
+  --dg-dec-fill: #D7EDF2; --dg-dec-stroke: #2A6070; --dg-term-fill: #397F91; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #DDE9EF; --dg-io-stroke: #C1D0D8; --dg-tag: #71838D;
+}
+
+:root[data-theme="mint"] {
+  color-scheme: light;
+  --bg: #F5FAF7; --surface: #FFFFFF; --surface-2: #DAF0E5; --surface-3: #CBE8DA;
+  --border: #D2E5D9; --border-strong: #BDD6C6;
+  --text: #23382F; --text-2: #6D887A; --muted: #6D887A; --faint: #BDD6C6;
+  --accent: #287A60; --accent-hover: #1A5E49; --accent-soft: rgba(40,122,96,0.12); --on-accent: #FFFFFF;
+  --secondary: #1A7060; --secondary-soft: rgba(26,112,96,0.12);
+  --focus: #287A60; --selection: #D8F0E3;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #E8F3ED; --topbar-text: #23382F; --topbar-muted: #6D887A; --topbar-hover: rgba(35,56,47,0.06);
+  --editor-bg: #F4FAF6; --gutter-bg: #F5FAF7; --gutter-text: #6D887A; --gutter-active: #23382F; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #F5FAF7; --canvas-dot: #BDD6C6; --paper: #FFFFFF; --paper-border: #D2E5D9;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #E8F3ED; --bs-nav-text: #23382F; --bs-nav-muted: #6D887A; --bs-nav-hover: rgba(35,56,47,0.05); --bs-nav-active: #D8F0E3;
+  /* syntax */
+  --syn-comment: #6D887A; --syn-keyword: #1E6850; --syn-module: #1A7060; --syn-string: #7A5820; --syn-tag: #6D887A;
+  --syn-process: #1A7060; --syn-decision: #7A5820; --syn-io: #3A5A7A; --syn-emph: #287A60; --syn-op: #6D887A; --syn-brace: #6D887A;
+  --syn-sel: #1E6850; --syn-class: #1A7060; --syn-prop: #3A5A7A; --syn-num: #7A5820;
+  /* diagram sample */
+  --dg-ink: #23382F; --dg-edge: #6D887A; --dg-proc-fill: #F4FAF6; --dg-proc-stroke: #287A60;
+  --dg-dec-fill: #D8F0E3; --dg-dec-stroke: #1A5E49; --dg-term-fill: #287A60; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #DAF0E5; --dg-io-stroke: #BDD6C6; --dg-tag: #6D887A;
+}
+
+:root[data-theme="terracotta"] {
+  color-scheme: light;
+  --bg: #FBF7F3; --surface: #FFFFFF; --surface-2: #EFE1D3; --surface-3: #E8D7C6;
+  --border: #E6D8C9; --border-strong: #D9C7B4;
+  --text: #382E27; --text-2: #8C7868; --muted: #8C7868; --faint: #D9C7B4;
+  --accent: #A65E3F; --accent-hover: #82492F; --accent-soft: rgba(166,94,63,0.12); --on-accent: #FFFFFF;
+  --secondary: #3A6B52; --secondary-soft: rgba(58,107,82,0.12);
+  --focus: #A65E3F; --selection: #F4E0D1;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #F3EAE0; --topbar-text: #382E27; --topbar-muted: #8C7868; --topbar-hover: rgba(56,46,39,0.06);
+  --editor-bg: #FBF7F2; --gutter-bg: #FBF7F3; --gutter-text: #8C7868; --gutter-active: #382E27; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #FBF7F3; --canvas-dot: #D9C7B4; --paper: #FFFFFF; --paper-border: #E6D8C9;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #F3EAE0; --bs-nav-text: #382E27; --bs-nav-muted: #8C7868; --bs-nav-hover: rgba(56,46,39,0.05); --bs-nav-active: #F4E0D1;
+  /* syntax */
+  --syn-comment: #8C7868; --syn-keyword: #904E32; --syn-module: #3A6B52; --syn-string: #8A5A18; --syn-tag: #8C7868;
+  --syn-process: #3A6B52; --syn-decision: #8A5A18; --syn-io: #4A4A7A; --syn-emph: #A65E3F; --syn-op: #8C7868; --syn-brace: #8C7868;
+  --syn-sel: #904E32; --syn-class: #3A6B52; --syn-prop: #4A4A7A; --syn-num: #8A5A18;
+  /* diagram sample */
+  --dg-ink: #382E27; --dg-edge: #8C7868; --dg-proc-fill: #FBF7F2; --dg-proc-stroke: #A65E3F;
+  --dg-dec-fill: #F4E0D1; --dg-dec-stroke: #82492F; --dg-term-fill: #A65E3F; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #EFE1D3; --dg-io-stroke: #D9C7B4; --dg-tag: #8C7868;
+}
+
+:root[data-theme="olive-grove"] {
+  color-scheme: light;
+  --bg: #F8F8F1; --surface: #FFFFFF; --surface-2: #E7E7D5; --surface-3: #DDDDC6;
+  --border: #DDDDCB; --border-strong: #CECDB8;
+  --text: #333427; --text-2: #7E8068; --muted: #7E8068; --faint: #CECDB8;
+  --accent: #70752D; --accent-hover: #565A20; --accent-soft: rgba(112,117,45,0.12); --on-accent: #FFFFFF;
+  --secondary: #3A6B48; --secondary-soft: rgba(58,107,72,0.12);
+  --focus: #70752D; --selection: #E9E9CC;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #EFEFE2; --topbar-text: #333427; --topbar-muted: #7E8068; --topbar-hover: rgba(51,52,39,0.06);
+  --editor-bg: #F8F8F0; --gutter-bg: #F8F8F1; --gutter-text: #7E8068; --gutter-active: #333427; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #F8F8F1; --canvas-dot: #CECDB8; --paper: #FFFFFF; --paper-border: #DDDDCB;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #EFEFE2; --bs-nav-text: #333427; --bs-nav-muted: #7E8068; --bs-nav-hover: rgba(51,52,39,0.05); --bs-nav-active: #E9E9CC;
+  /* syntax */
+  --syn-comment: #7E8068; --syn-keyword: #606022; --syn-module: #3A6B48; --syn-string: #8A5C18; --syn-tag: #7E8068;
+  --syn-process: #3A6B48; --syn-decision: #8A5C18; --syn-io: #3A527A; --syn-emph: #70752D; --syn-op: #7E8068; --syn-brace: #7E8068;
+  --syn-sel: #606022; --syn-class: #3A6B48; --syn-prop: #3A527A; --syn-num: #8A5C18;
+  /* diagram sample */
+  --dg-ink: #333427; --dg-edge: #7E8068; --dg-proc-fill: #F8F8F0; --dg-proc-stroke: #70752D;
+  --dg-dec-fill: #E9E9CC; --dg-dec-stroke: #565A20; --dg-term-fill: #70752D; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #E7E7D5; --dg-io-stroke: #CECDB8; --dg-tag: #7E8068;
+}
+
+:root[data-theme="ocean"] {
+  color-scheme: light;
+  --bg: #F4F9FB; --surface: #FFFFFF; --surface-2: #D8EDF4; --surface-3: #C9E4EE;
+  --border: #D1E1E8; --border-strong: #BBCFD9;
+  --text: #20353F; --text-2: #6B8490; --muted: #6B8490; --faint: #BBCFD9;
+  --accent: #247D9A; --accent-hover: #196179; --accent-soft: rgba(36,125,154,0.12); --on-accent: #FFFFFF;
+  --secondary: #1E7068; --secondary-soft: rgba(30,112,104,0.12);
+  --focus: #247D9A; --selection: #D4EBF5;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #E7F1F5; --topbar-text: #20353F; --topbar-muted: #6B8490; --topbar-hover: rgba(32,53,63,0.06);
+  --editor-bg: #F3F8FB; --gutter-bg: #F4F9FB; --gutter-text: #6B8490; --gutter-active: #20353F; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #F4F9FB; --canvas-dot: #BBCFD9; --paper: #FFFFFF; --paper-border: #D1E1E8;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #E7F1F5; --bs-nav-text: #20353F; --bs-nav-muted: #6B8490; --bs-nav-hover: rgba(32,53,63,0.05); --bs-nav-active: #D4EBF5;
+  /* syntax */
+  --syn-comment: #6B8490; --syn-keyword: #187088; --syn-module: #1E7068; --syn-string: #8A5A28; --syn-tag: #6B8490;
+  --syn-process: #1E7068; --syn-decision: #8A5A28; --syn-io: #3A4A8A; --syn-emph: #247D9A; --syn-op: #6B8490; --syn-brace: #6B8490;
+  --syn-sel: #187088; --syn-class: #1E7068; --syn-prop: #3A4A8A; --syn-num: #8A5A28;
+  /* diagram sample */
+  --dg-ink: #20353F; --dg-edge: #6B8490; --dg-proc-fill: #F3F8FB; --dg-proc-stroke: #247D9A;
+  --dg-dec-fill: #D4EBF5; --dg-dec-stroke: #196179; --dg-term-fill: #247D9A; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #D8EDF4; --dg-io-stroke: #BBCFD9; --dg-tag: #6B8490;
+}
+
+:root[data-theme="amber"] {
+  color-scheme: light;
+  --bg: #FCF9F1; --surface: #FFFFFF; --surface-2: #EEE5CE; --surface-3: #E7DCC3;
+  --border: #E7DDC6; --border-strong: #D9CEAF;
+  --text: #383022; --text-2: #8C8067; --muted: #8C8067; --faint: #D9CEAF;
+  --accent: #996A16; --accent-hover: #77520F; --accent-soft: rgba(153,106,22,0.12); --on-accent: #FFFFFF;
+  --secondary: #3A6B52; --secondary-soft: rgba(58,107,82,0.12);
+  --focus: #996A16; --selection: #F5E8C5;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #F5EFDF; --topbar-text: #383022; --topbar-muted: #8C8067; --topbar-hover: rgba(56,48,34,0.06);
+  --editor-bg: #FCF9EF; --gutter-bg: #FCF9F1; --gutter-text: #8C8067; --gutter-active: #383022; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #FCF9F1; --canvas-dot: #D9CEAF; --paper: #FFFFFF; --paper-border: #E7DDC6;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #F5EFDF; --bs-nav-text: #383022; --bs-nav-muted: #8C8067; --bs-nav-hover: rgba(56,48,34,0.05); --bs-nav-active: #F5E8C5;
+  /* syntax */
+  --syn-comment: #8C8067; --syn-keyword: #885A10; --syn-module: #3A6B52; --syn-string: #8A4A18; --syn-tag: #8C8067;
+  --syn-process: #3A6B52; --syn-decision: #8A4A18; --syn-io: #3A4A7A; --syn-emph: #996A16; --syn-op: #8C8067; --syn-brace: #8C8067;
+  --syn-sel: #885A10; --syn-class: #3A6B52; --syn-prop: #3A4A7A; --syn-num: #8A4A18;
+  /* diagram sample */
+  --dg-ink: #383022; --dg-edge: #8C8067; --dg-proc-fill: #FCF9EF; --dg-proc-stroke: #996A16;
+  --dg-dec-fill: #F5E8C5; --dg-dec-stroke: #77520F; --dg-term-fill: #996A16; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #EEE5CE; --dg-io-stroke: #D9CEAF; --dg-tag: #8C8067;
+}
+
+:root[data-theme="blush"] {
+  color-scheme: light;
+  --bg: #FFF7FA; --surface: #FFFFFF; --surface-2: #F5E1EB; --surface-3: #EFD5E4;
+  --border: #EBD5E0; --border-strong: #DFC3D0;
+  --text: #402A35; --text-2: #957789; --muted: #957789; --faint: #DFC3D0;
+  --accent: #B44D78; --accent-hover: #8E3B5E; --accent-soft: rgba(180,77,120,0.12); --on-accent: #FFFFFF;
+  --secondary: #3A6B60; --secondary-soft: rgba(58,107,96,0.12);
+  --focus: #B44D78; --selection: #F6DCE8;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #F9EAF0; --topbar-text: #402A35; --topbar-muted: #957789; --topbar-hover: rgba(64,42,53,0.06);
+  --editor-bg: #FFF7FA; --gutter-bg: #FFF7FA; --gutter-text: #957789; --gutter-active: #402A35; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #FFF7FA; --canvas-dot: #DFC3D0; --paper: #FFFFFF; --paper-border: #EBD5E0;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #F9EAF0; --bs-nav-text: #402A35; --bs-nav-muted: #957789; --bs-nav-hover: rgba(64,42,53,0.05); --bs-nav-active: #F6DCE8;
+  /* syntax */
+  --syn-comment: #957789; --syn-keyword: #A03C68; --syn-module: #3A6B60; --syn-string: #8A4A20; --syn-tag: #957789;
+  --syn-process: #3A6B60; --syn-decision: #8A4A20; --syn-io: #4A4A8A; --syn-emph: #B44D78; --syn-op: #957789; --syn-brace: #957789;
+  --syn-sel: #A03C68; --syn-class: #3A6B60; --syn-prop: #4A4A8A; --syn-num: #8A4A20;
+  /* diagram sample */
+  --dg-ink: #402A35; --dg-edge: #957789; --dg-proc-fill: #FFF7FA; --dg-proc-stroke: #B44D78;
+  --dg-dec-fill: #F6DCE8; --dg-dec-stroke: #8E3B5E; --dg-term-fill: #B44D78; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #F5E1EB; --dg-io-stroke: #DFC3D0; --dg-tag: #957789;
+}
+
+:root[data-theme="eucalyptus"] {
+  color-scheme: light;
+  --bg: #F5F9F7; --surface: #FFFFFF; --surface-2: #DDEEE7; --surface-3: #CEE5DB;
+  --border: #D5E3DA; --border-strong: #C0D4CB;
+  --text: #283832; --text-2: #71847A; --muted: #71847A; --faint: #C0D4CB;
+  --accent: #467B67; --accent-hover: #33604F; --accent-soft: rgba(70,123,103,0.12); --on-accent: #FFFFFF;
+  --secondary: #267065; --secondary-soft: rgba(38,112,101,0.12);
+  --focus: #467B67; --selection: #DCEEE4;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #E9F1ED; --topbar-text: #283832; --topbar-muted: #71847A; --topbar-hover: rgba(40,56,50,0.06);
+  --editor-bg: #F4F9F6; --gutter-bg: #F5F9F7; --gutter-text: #71847A; --gutter-active: #283832; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #F5F9F7; --canvas-dot: #C0D4CB; --paper: #FFFFFF; --paper-border: #D5E3DA;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #E9F1ED; --bs-nav-text: #283832; --bs-nav-muted: #71847A; --bs-nav-hover: rgba(40,56,50,0.05); --bs-nav-active: #DCEEE4;
+  /* syntax */
+  --syn-comment: #71847A; --syn-keyword: #366858; --syn-module: #267065; --syn-string: #7A5820; --syn-tag: #71847A;
+  --syn-process: #267065; --syn-decision: #7A5820; --syn-io: #3A5078; --syn-emph: #467B67; --syn-op: #71847A; --syn-brace: #71847A;
+  --syn-sel: #366858; --syn-class: #267065; --syn-prop: #3A5078; --syn-num: #7A5820;
+  /* diagram sample */
+  --dg-ink: #283832; --dg-edge: #71847A; --dg-proc-fill: #F4F9F6; --dg-proc-stroke: #467B67;
+  --dg-dec-fill: #DCEEE4; --dg-dec-stroke: #33604F; --dg-term-fill: #467B67; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #DDEEE7; --dg-io-stroke: #C0D4CB; --dg-tag: #71847A;
+}
+
+:root[data-theme="cobalt"] {
+  color-scheme: light;
+  --bg: #F7F8FC; --surface: #FFFFFF; --surface-2: #DDE4F5; --surface-3: #D1DAEF;
+  --border: #D7DEEF; --border-strong: #C4CDEA;
+  --text: #252D42; --text-2: #737E9A; --muted: #737E9A; --faint: #C4CDEA;
+  --accent: #345AC5; --accent-hover: #2644A3; --accent-soft: rgba(52,90,197,0.12); --on-accent: #FFFFFF;
+  --secondary: #2A6A7A; --secondary-soft: rgba(42,106,122,0.12);
+  --focus: #345AC5; --selection: #DCE5FC;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #EBEFF8; --topbar-text: #252D42; --topbar-muted: #737E9A; --topbar-hover: rgba(37,45,66,0.06);
+  --editor-bg: #F6F8FC; --gutter-bg: #F7F8FC; --gutter-text: #737E9A; --gutter-active: #252D42; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #F7F8FC; --canvas-dot: #C4CDEA; --paper: #FFFFFF; --paper-border: #D7DEEF;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #EBEFF8; --bs-nav-text: #252D42; --bs-nav-muted: #737E9A; --bs-nav-hover: rgba(37,45,66,0.05); --bs-nav-active: #DCE5FC;
+  /* syntax */
+  --syn-comment: #737E9A; --syn-keyword: #2448B0; --syn-module: #2A6A7A; --syn-string: #8A5820; --syn-tag: #737E9A;
+  --syn-process: #2A6A7A; --syn-decision: #8A5820; --syn-io: #3A50B0; --syn-emph: #345AC5; --syn-op: #737E9A; --syn-brace: #737E9A;
+  --syn-sel: #2448B0; --syn-class: #2A6A7A; --syn-prop: #3A50B0; --syn-num: #8A5820;
+  /* diagram sample */
+  --dg-ink: #252D42; --dg-edge: #737E9A; --dg-proc-fill: #F6F8FC; --dg-proc-stroke: #345AC5;
+  --dg-dec-fill: #DCE5FC; --dg-dec-stroke: #2644A3; --dg-term-fill: #345AC5; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #DDE4F5; --dg-io-stroke: #C4CDEA; --dg-tag: #737E9A;
+}
+
+:root[data-theme="lilac"] {
+  color-scheme: light;
+  --bg: #FBF8FC; --surface: #FFFFFF; --surface-2: #EDE0F6; --surface-3: #E6D6F2;
+  --border: #E5D7ED; --border-strong: #D9C6E4;
+  --text: #382C40; --text-2: #8B7695; --muted: #8B7695; --faint: #D9C6E4;
+  --accent: #9459AD; --accent-hover: #74438A; --accent-soft: rgba(148,89,173,0.12); --on-accent: #FFFFFF;
+  --secondary: #3A6B7A; --secondary-soft: rgba(58,107,122,0.12);
+  --focus: #9459AD; --selection: #EEDDF7;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #F2EAF6; --topbar-text: #382C40; --topbar-muted: #8B7695; --topbar-hover: rgba(56,44,64,0.06);
+  --editor-bg: #FBF8FC; --gutter-bg: #FBF8FC; --gutter-text: #8B7695; --gutter-active: #382C40; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #FBF8FC; --canvas-dot: #D9C6E4; --paper: #FFFFFF; --paper-border: #E5D7ED;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #F2EAF6; --bs-nav-text: #382C40; --bs-nav-muted: #8B7695; --bs-nav-hover: rgba(56,44,64,0.05); --bs-nav-active: #EEDDF7;
+  /* syntax */
+  --syn-comment: #8B7695; --syn-keyword: #8448A0; --syn-module: #3A6B7A; --syn-string: #8A5820; --syn-tag: #8B7695;
+  --syn-process: #3A6B7A; --syn-decision: #8A5820; --syn-io: #4848A0; --syn-emph: #9459AD; --syn-op: #8B7695; --syn-brace: #8B7695;
+  --syn-sel: #8448A0; --syn-class: #3A6B7A; --syn-prop: #4848A0; --syn-num: #8A5820;
+  /* diagram sample */
+  --dg-ink: #382C40; --dg-edge: #8B7695; --dg-proc-fill: #FBF8FC; --dg-proc-stroke: #9459AD;
+  --dg-dec-fill: #EEDDF7; --dg-dec-stroke: #74438A; --dg-term-fill: #9459AD; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #EDE0F6; --dg-io-stroke: #D9C6E4; --dg-tag: #8B7695;
+}
+
+:root[data-theme="coffee"] {
+  color-scheme: light;
+  --bg: #F9F6F2; --surface: #FFFFFF; --surface-2: #EAE0D4; --surface-3: #E3D6C8;
+  --border: #E0D3C6; --border-strong: #D2C2B3;
+  --text: #332A24; --text-2: #847367; --muted: #847367; --faint: #D2C2B3;
+  --accent: #79533C; --accent-hover: #5D3F2D; --accent-soft: rgba(121,83,60,0.12); --on-accent: #FFFFFF;
+  --secondary: #3A6B52; --secondary-soft: rgba(58,107,82,0.12);
+  --focus: #79533C; --selection: #EBDDCF;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #EFE6DD; --topbar-text: #332A24; --topbar-muted: #847367; --topbar-hover: rgba(51,42,36,0.06);
+  --editor-bg: #F9F6F1; --gutter-bg: #F9F6F2; --gutter-text: #847367; --gutter-active: #332A24; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #F9F6F2; --canvas-dot: #D2C2B3; --paper: #FFFFFF; --paper-border: #E0D3C6;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #EFE6DD; --bs-nav-text: #332A24; --bs-nav-muted: #847367; --bs-nav-hover: rgba(51,42,36,0.05); --bs-nav-active: #EBDDCF;
+  /* syntax */
+  --syn-comment: #847367; --syn-keyword: #68432C; --syn-module: #3A6B52; --syn-string: #8A4A18; --syn-tag: #847367;
+  --syn-process: #3A6B52; --syn-decision: #8A4A18; --syn-io: #3A487A; --syn-emph: #79533C; --syn-op: #847367; --syn-brace: #847367;
+  --syn-sel: #68432C; --syn-class: #3A6B52; --syn-prop: #3A487A; --syn-num: #8A4A18;
+  /* diagram sample */
+  --dg-ink: #332A24; --dg-edge: #847367; --dg-proc-fill: #F9F6F1; --dg-proc-stroke: #79533C;
+  --dg-dec-fill: #EBDDCF; --dg-dec-stroke: #5D3F2D; --dg-term-fill: #79533C; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #EAE0D4; --dg-io-stroke: #D2C2B3; --dg-tag: #847367;
+}
+
+:root[data-theme="glacier"] {
+  color-scheme: light;
+  --bg: #F4FAFC; --surface: #FFFFFF; --surface-2: #D9EFF5; --surface-3: #CAE7F0;
+  --border: #D1E3E9; --border-strong: #BBD4DC;
+  --text: #253640; --text-2: #728B96; --muted: #728B96; --faint: #BBD4DC;
+  --accent: #438CA5; --accent-hover: #316D82; --accent-soft: rgba(67,140,165,0.12); --on-accent: #FFFFFF;
+  --secondary: #2A7068; --secondary-soft: rgba(42,112,104,0.12);
+  --focus: #438CA5; --selection: #D9EDF5;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #E8F3F7; --topbar-text: #253640; --topbar-muted: #728B96; --topbar-hover: rgba(37,54,64,0.06);
+  --editor-bg: #F3FAFB; --gutter-bg: #F4FAFC; --gutter-text: #728B96; --gutter-active: #253640; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #F4FAFC; --canvas-dot: #BBD4DC; --paper: #FFFFFF; --paper-border: #D1E3E9;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #E8F3F7; --bs-nav-text: #253640; --bs-nav-muted: #728B96; --bs-nav-hover: rgba(37,54,64,0.05); --bs-nav-active: #D9EDF5;
+  /* syntax */
+  --syn-comment: #728B96; --syn-keyword: #327890; --syn-module: #2A7068; --syn-string: #8A5A28; --syn-tag: #728B96;
+  --syn-process: #2A7068; --syn-decision: #8A5A28; --syn-io: #3A4A8A; --syn-emph: #438CA5; --syn-op: #728B96; --syn-brace: #728B96;
+  --syn-sel: #327890; --syn-class: #2A7068; --syn-prop: #3A4A8A; --syn-num: #8A5A28;
+  /* diagram sample */
+  --dg-ink: #253640; --dg-edge: #728B96; --dg-proc-fill: #F3FAFB; --dg-proc-stroke: #438CA5;
+  --dg-dec-fill: #D9EDF5; --dg-dec-stroke: #316D82; --dg-term-fill: #438CA5; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #D9EFF5; --dg-io-stroke: #BBD4DC; --dg-tag: #728B96;
+}
+
+:root[data-theme="high-contrast-light"] {
+  color-scheme: light;
+  --bg: #FFFFFF; --surface: #FFFFFF; --surface-2: #E0E0E0; --surface-3: #CCCCCC;
+  --border: #A0A0A0; --border-strong: #888888;
+  --text: #171717; --text-2: #505050; --muted: #505050; --faint: #888888;
+  --accent: #174FB5; --accent-hover: #0E3A8C; --accent-soft: rgba(23,79,181,0.12); --on-accent: #FFFFFF;
+  --secondary: #006060; --secondary-soft: rgba(0,96,96,0.12);
+  --focus: #174FB5; --selection: #D1E1FF;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #F0F0F0; --topbar-text: #171717; --topbar-muted: #505050; --topbar-hover: rgba(23,23,23,0.06);
+  --editor-bg: #FFFFFF; --gutter-bg: #FFFFFF; --gutter-text: #505050; --gutter-active: #171717; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #FFFFFF; --canvas-dot: #888888; --paper: #FFFFFF; --paper-border: #A0A0A0;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #F0F0F0; --bs-nav-text: #171717; --bs-nav-muted: #505050; --bs-nav-hover: rgba(23,23,23,0.05); --bs-nav-active: #D1E1FF;
+  /* syntax */
+  --syn-comment: #505050; --syn-keyword: #0A3A9A; --syn-module: #006060; --syn-string: #8A3A00; --syn-tag: #505050;
+  --syn-process: #006060; --syn-decision: #8A3A00; --syn-io: #003A8A; --syn-emph: #174FB5; --syn-op: #505050; --syn-brace: #505050;
+  --syn-sel: #0A3A9A; --syn-class: #006060; --syn-prop: #003A8A; --syn-num: #8A3A00;
+  /* diagram sample */
+  --dg-ink: #171717; --dg-edge: #505050; --dg-proc-fill: #FFFFFF; --dg-proc-stroke: #174FB5;
+  --dg-dec-fill: #D1E1FF; --dg-dec-stroke: #0E3A8C; --dg-term-fill: #174FB5; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #E0E0E0; --dg-io-stroke: #888888; --dg-tag: #505050;
+}
+
+:root[data-theme="monochrome"] {
+  color-scheme: light;
+  --bg: #FAFAFA; --surface: #FFFFFF; --surface-2: #E8E8E8; --surface-3: #DCDCDC;
+  --border: #D2D2D2; --border-strong: #BFBFBF;
+  --text: #202020; --text-2: #686868; --muted: #686868; --faint: #BFBFBF;
+  --accent: #414141; --accent-hover: #2A2A2A; --accent-soft: rgba(65,65,65,0.12); --on-accent: #FFFFFF;
+  --secondary: #383838; --secondary-soft: rgba(56,56,56,0.12);
+  --focus: #414141; --selection: #E1E1E1;
+  --danger: #B3261E; --success: #3F7A57;
+  --topbar-bg: #F0F0F0; --topbar-text: #202020; --topbar-muted: #686868; --topbar-hover: rgba(32,32,32,0.06);
+  --editor-bg: #FAFAFA; --gutter-bg: #FAFAFA; --gutter-text: #686868; --gutter-active: #202020; --curline: rgba(0,0,0,.04);
+  --canvas-bg: #FAFAFA; --canvas-dot: #BFBFBF; --paper: #FFFFFF; --paper-border: #D2D2D2;
+  --menu-bg: #FFFFFF; --overlay: rgba(0,0,0,.35);
+  --bs-nav-bg: #F0F0F0; --bs-nav-text: #202020; --bs-nav-muted: #686868; --bs-nav-hover: rgba(32,32,32,0.05); --bs-nav-active: #E1E1E1;
+  /* syntax */
+  --syn-comment: #686868; --syn-keyword: #2A2A2A; --syn-module: #383838; --syn-string: #444444; --syn-tag: #686868;
+  --syn-process: #383838; --syn-decision: #444444; --syn-io: #303030; --syn-emph: #414141; --syn-op: #686868; --syn-brace: #686868;
+  --syn-sel: #2A2A2A; --syn-class: #383838; --syn-prop: #303030; --syn-num: #444444;
+  /* diagram sample */
+  --dg-ink: #202020; --dg-edge: #686868; --dg-proc-fill: #FAFAFA; --dg-proc-stroke: #414141;
+  --dg-dec-fill: #E1E1E1; --dg-dec-stroke: #2A2A2A; --dg-term-fill: #414141; --dg-term-ink: #FFFFFF;
+  --dg-io-fill: #E8E8E8; --dg-io-stroke: #BFBFBF; --dg-tag: #686868;
+}
+
+:root[data-theme="plum-midnight"] {
+  color-scheme: dark;
+  --bg: #1C1E27; --surface: #232532; --surface-2: #2C2E3E; --surface-3: #35384A;
+  --border: #30333F; --border-strong: #3E4254;
+  --text: #E6E4EE; --text-2: #A19EB0; --muted: #A19EB0; --faint: #3E4254;
+  --accent: #97A2E3; --accent-hover: #AFB7EF; --accent-soft: rgba(151,162,227,0.18); --on-accent: #101820;
+  --secondary: #7FC4C8; --secondary-soft: rgba(127,196,200,0.2);
+  --focus: #97A2E3; --selection: #303455;
+  --danger: #F4918A; --success: #6DB58A;
+  --topbar-bg: #14161D; --topbar-text: #E6E4EE; --topbar-muted: #A19EB0; --topbar-hover: rgba(230,228,238,0.08);
+  --editor-bg: #191B24; --gutter-bg: #1C1E27; --gutter-text: #A19EB0; --gutter-active: #E6E4EE; --curline: rgba(255,255,255,.05);
+  --canvas-bg: #1C1E27; --canvas-dot: #3E4254; --paper: #232532; --paper-border: #30333F;
+  --menu-bg: #232532; --overlay: rgba(0,0,0,.68);
+  --bs-nav-bg: #14161D; --bs-nav-text: #E6E4EE; --bs-nav-muted: #A19EB0; --bs-nav-hover: rgba(230,228,238,0.07); --bs-nav-active: #303455;
+  /* syntax */
+  --syn-comment: #A19EB0; --syn-keyword: #A4ADEC; --syn-module: #7FC4C8; --syn-string: #E3A074; --syn-tag: #A19EB0;
+  --syn-process: #7FC4C8; --syn-decision: #E3A074; --syn-io: #8FB0E6; --syn-emph: #97A2E3; --syn-op: #A19EB0; --syn-brace: #A19EB0;
+  --syn-sel: #A4ADEC; --syn-class: #7FC4C8; --syn-prop: #8FB0E6; --syn-num: #E3A074;
+  /* diagram sample */
+  --dg-ink: #E6E4EE; --dg-edge: #A19EB0; --dg-proc-fill: #191B24; --dg-proc-stroke: #97A2E3;
+  --dg-dec-fill: #303455; --dg-dec-stroke: #AFB7EF; --dg-term-fill: #97A2E3; --dg-term-ink: #101820;
+  --dg-io-fill: #2C2E3E; --dg-io-stroke: #3E4254; --dg-tag: #A19EB0;
+}
+
+:root[data-theme="nightshade"] {
+  color-scheme: dark;
+  --bg: #282A36; --surface: #343746; --surface-2: #3A3D50; --surface-3: #44475A;
+  --border: #4A4D60; --border-strong: #5A5E75;
+  --text: #F8F8F2; --text-2: #B4B8CE; --muted: #B4B8CE; --faint: #5A5E75;
+  --accent: #BD93F9; --accent-hover: #9E77E0; --accent-soft: rgba(189,147,249,0.18); --on-accent: #101820;
+  --secondary: #50FA7B; --secondary-soft: rgba(80,250,123,0.2);
+  --focus: #BD93F9; --selection: #44475A;
+  --danger: #F4918A; --success: #6DB58A;
+  --topbar-bg: #21232E; --topbar-text: #F8F8F2; --topbar-muted: #B4B8CE; --topbar-hover: rgba(248,248,242,0.08);
+  --editor-bg: #1E2029; --gutter-bg: #282A36; --gutter-text: #B4B8CE; --gutter-active: #F8F8F2; --curline: rgba(255,255,255,.05);
+  --canvas-bg: #282A36; --canvas-dot: #5A5E75; --paper: #343746; --paper-border: #4A4D60;
+  --menu-bg: #343746; --overlay: rgba(0,0,0,.68);
+  --bs-nav-bg: #21232E; --bs-nav-text: #F8F8F2; --bs-nav-muted: #B4B8CE; --bs-nav-hover: rgba(248,248,242,0.07); --bs-nav-active: #44475A;
+  /* syntax */
+  --syn-comment: #B4B8CE; --syn-keyword: #BD93F9; --syn-module: #50FA7B; --syn-string: #FFB86C; --syn-tag: #B4B8CE;
+  --syn-process: #50FA7B; --syn-decision: #FFB86C; --syn-io: #8BE9FD; --syn-emph: #BD93F9; --syn-op: #B4B8CE; --syn-brace: #B4B8CE;
+  --syn-sel: #BD93F9; --syn-class: #50FA7B; --syn-prop: #8BE9FD; --syn-num: #FFB86C;
+  /* diagram sample */
+  --dg-ink: #F8F8F2; --dg-edge: #B4B8CE; --dg-proc-fill: #1E2029; --dg-proc-stroke: #BD93F9;
+  --dg-dec-fill: #44475A; --dg-dec-stroke: #9E77E0; --dg-term-fill: #BD93F9; --dg-term-ink: #101820;
+  --dg-io-fill: #3A3D50; --dg-io-stroke: #5A5E75; --dg-tag: #B4B8CE;
+}
+
+:root[data-theme="northwind"] {
+  color-scheme: dark;
+  --bg: #2E3440; --surface: #3B4252; --surface-2: #3F4759; --surface-3: #465568;
+  --border: #4C566A; --border-strong: #5E6A7F;
+  --text: #ECEFF4; --text-2: #B0BAC9; --muted: #B0BAC9; --faint: #5E6A7F;
+  --accent: #88C0D0; --accent-hover: #6AAABB; --accent-soft: rgba(136,192,208,0.18); --on-accent: #101820;
+  --secondary: #88C0D0; --secondary-soft: rgba(136,192,208,0.2);
+  --focus: #88C0D0; --selection: #465568;
+  --danger: #F4918A; --success: #6DB58A;
+  --topbar-bg: #252B36; --topbar-text: #ECEFF4; --topbar-muted: #B0BAC9; --topbar-hover: rgba(236,239,244,0.08);
+  --editor-bg: #252B36; --gutter-bg: #2E3440; --gutter-text: #B0BAC9; --gutter-active: #ECEFF4; --curline: rgba(255,255,255,.05);
+  --canvas-bg: #2E3440; --canvas-dot: #5E6A7F; --paper: #3B4252; --paper-border: #4C566A;
+  --menu-bg: #3B4252; --overlay: rgba(0,0,0,.68);
+  --bs-nav-bg: #252B36; --bs-nav-text: #ECEFF4; --bs-nav-muted: #B0BAC9; --bs-nav-hover: rgba(236,239,244,0.07); --bs-nav-active: #465568;
+  /* syntax */
+  --syn-comment: #B0BAC9; --syn-keyword: #81A1C1; --syn-module: #88C0D0; --syn-string: #EBCB8B; --syn-tag: #B0BAC9;
+  --syn-process: #88C0D0; --syn-decision: #EBCB8B; --syn-io: #8FBCBB; --syn-emph: #88C0D0; --syn-op: #B0BAC9; --syn-brace: #B0BAC9;
+  --syn-sel: #81A1C1; --syn-class: #88C0D0; --syn-prop: #8FBCBB; --syn-num: #EBCB8B;
+  /* diagram sample */
+  --dg-ink: #ECEFF4; --dg-edge: #B0BAC9; --dg-proc-fill: #252B36; --dg-proc-stroke: #88C0D0;
+  --dg-dec-fill: #465568; --dg-dec-stroke: #6AAABB; --dg-term-fill: #88C0D0; --dg-term-ink: #101820;
+  --dg-io-fill: #3F4759; --dg-io-stroke: #5E6A7F; --dg-tag: #B0BAC9;
+}
+
+:root[data-theme="mocha"] {
+  color-scheme: dark;
+  --bg: #211E1B; --surface: #2B2622; --surface-2: #352E28; --surface-3: #554031;
+  --border: #4A3D33; --border-strong: #5A4B3E;
+  --text: #F0E4D6; --text-2: #B4A392; --muted: #B4A392; --faint: #5A4B3E;
+  --accent: #D8A16E; --accent-hover: #BF8854; --accent-soft: rgba(216,161,110,0.18); --on-accent: #101820;
+  --secondary: #7FC4B0; --secondary-soft: rgba(127,196,176,0.2);
+  --focus: #D8A16E; --selection: #554031;
+  --danger: #F4918A; --success: #6DB58A;
+  --topbar-bg: #191714; --topbar-text: #F0E4D6; --topbar-muted: #B4A392; --topbar-hover: rgba(240,228,214,0.08);
+  --editor-bg: #19170F; --gutter-bg: #211E1B; --gutter-text: #B4A392; --gutter-active: #F0E4D6; --curline: rgba(255,255,255,.05);
+  --canvas-bg: #211E1B; --canvas-dot: #5A4B3E; --paper: #2B2622; --paper-border: #4A3D33;
+  --menu-bg: #2B2622; --overlay: rgba(0,0,0,.68);
+  --bs-nav-bg: #191714; --bs-nav-text: #F0E4D6; --bs-nav-muted: #B4A392; --bs-nav-hover: rgba(240,228,214,0.07); --bs-nav-active: #554031;
+  /* syntax */
+  --syn-comment: #B4A392; --syn-keyword: #D8A16E; --syn-module: #7FC4B0; --syn-string: #E4C07A; --syn-tag: #B4A392;
+  --syn-process: #7FC4B0; --syn-decision: #E4C07A; --syn-io: #8FAFD8; --syn-emph: #D8A16E; --syn-op: #B4A392; --syn-brace: #B4A392;
+  --syn-sel: #D8A16E; --syn-class: #7FC4B0; --syn-prop: #8FAFD8; --syn-num: #E4C07A;
+  /* diagram sample */
+  --dg-ink: #F0E4D6; --dg-edge: #B4A392; --dg-proc-fill: #19170F; --dg-proc-stroke: #D8A16E;
+  --dg-dec-fill: #554031; --dg-dec-stroke: #BF8854; --dg-term-fill: #D8A16E; --dg-term-ink: #101820;
+  --dg-io-fill: #352E28; --dg-io-stroke: #5A4B3E; --dg-tag: #B4A392;
+}
+
+:root[data-theme="forest-dark"] {
+  color-scheme: dark;
+  --bg: #171F1A; --surface: #202B23; --surface-2: #263229; --surface-3: #304D39;
+  --border: #3A4C3D; --border-strong: #4A5E4D;
+  --text: #E3EDE3; --text-2: #9FB5A1; --muted: #9FB5A1; --faint: #4A5E4D;
+  --accent: #8FCB9B; --accent-hover: #70B07C; --accent-soft: rgba(143,203,155,0.18); --on-accent: #101820;
+  --secondary: #78C8B0; --secondary-soft: rgba(120,200,176,0.2);
+  --focus: #8FCB9B; --selection: #304D39;
+  --danger: #F4918A; --success: #6DB58A;
+  --topbar-bg: #121A14; --topbar-text: #E3EDE3; --topbar-muted: #9FB5A1; --topbar-hover: rgba(227,237,227,0.08);
+  --editor-bg: #121A14; --gutter-bg: #171F1A; --gutter-text: #9FB5A1; --gutter-active: #E3EDE3; --curline: rgba(255,255,255,.05);
+  --canvas-bg: #171F1A; --canvas-dot: #4A5E4D; --paper: #202B23; --paper-border: #3A4C3D;
+  --menu-bg: #202B23; --overlay: rgba(0,0,0,.68);
+  --bs-nav-bg: #121A14; --bs-nav-text: #E3EDE3; --bs-nav-muted: #9FB5A1; --bs-nav-hover: rgba(227,237,227,0.07); --bs-nav-active: #304D39;
+  /* syntax */
+  --syn-comment: #9FB5A1; --syn-keyword: #8FCB9B; --syn-module: #78C8B0; --syn-string: #E0C070; --syn-tag: #9FB5A1;
+  --syn-process: #78C8B0; --syn-decision: #E0C070; --syn-io: #80B0D8; --syn-emph: #8FCB9B; --syn-op: #9FB5A1; --syn-brace: #9FB5A1;
+  --syn-sel: #8FCB9B; --syn-class: #78C8B0; --syn-prop: #80B0D8; --syn-num: #E0C070;
+  /* diagram sample */
+  --dg-ink: #E3EDE3; --dg-edge: #9FB5A1; --dg-proc-fill: #121A14; --dg-proc-stroke: #8FCB9B;
+  --dg-dec-fill: #304D39; --dg-dec-stroke: #70B07C; --dg-term-fill: #8FCB9B; --dg-term-ink: #101820;
+  --dg-io-fill: #263229; --dg-io-stroke: #4A5E4D; --dg-tag: #9FB5A1;
+}
+
+:root[data-theme="ocean-deep"] {
+  color-scheme: dark;
+  --bg: #111E29; --surface: #192B38; --surface-2: #1E3547; --surface-3: #25485C;
+  --border: #304958; --border-strong: #3E5A6C;
+  --text: #E0EDF4; --text-2: #98B2C2; --muted: #98B2C2; --faint: #3E5A6C;
+  --accent: #65BDD5; --accent-hover: #4BA3BB; --accent-soft: rgba(101,189,213,0.18); --on-accent: #101820;
+  --secondary: #60C8B0; --secondary-soft: rgba(96,200,176,0.2);
+  --focus: #65BDD5; --selection: #25485C;
+  --danger: #F4918A; --success: #6DB58A;
+  --topbar-bg: #0C1720; --topbar-text: #E0EDF4; --topbar-muted: #98B2C2; --topbar-hover: rgba(224,237,244,0.08);
+  --editor-bg: #0C1720; --gutter-bg: #111E29; --gutter-text: #98B2C2; --gutter-active: #E0EDF4; --curline: rgba(255,255,255,.05);
+  --canvas-bg: #111E29; --canvas-dot: #3E5A6C; --paper: #192B38; --paper-border: #304958;
+  --menu-bg: #192B38; --overlay: rgba(0,0,0,.68);
+  --bs-nav-bg: #0C1720; --bs-nav-text: #E0EDF4; --bs-nav-muted: #98B2C2; --bs-nav-hover: rgba(224,237,244,0.07); --bs-nav-active: #25485C;
+  /* syntax */
+  --syn-comment: #98B2C2; --syn-keyword: #65BDD5; --syn-module: #60C8B0; --syn-string: #E0C070; --syn-tag: #98B2C2;
+  --syn-process: #60C8B0; --syn-decision: #E0C070; --syn-io: #7898D8; --syn-emph: #65BDD5; --syn-op: #98B2C2; --syn-brace: #98B2C2;
+  --syn-sel: #65BDD5; --syn-class: #60C8B0; --syn-prop: #7898D8; --syn-num: #E0C070;
+  /* diagram sample */
+  --dg-ink: #E0EDF4; --dg-edge: #98B2C2; --dg-proc-fill: #0C1720; --dg-proc-stroke: #65BDD5;
+  --dg-dec-fill: #25485C; --dg-dec-stroke: #4BA3BB; --dg-term-fill: #65BDD5; --dg-term-ink: #101820;
+  --dg-io-fill: #1E3547; --dg-io-stroke: #3E5A6C; --dg-tag: #98B2C2;
+}
+
+:root[data-theme="burgundy-dark"] {
+  color-scheme: dark;
+  --bg: #21171D; --surface: #2D2028; --surface-2: #372028; --surface-3: #513041;
+  --border: #4A3440; --border-strong: #5A4050;
+  --text: #F1E4E9; --text-2: #BCA0AC; --muted: #BCA0AC; --faint: #5A4050;
+  --accent: #DC8AA7; --accent-hover: #C26F8E; --accent-soft: rgba(220,138,167,0.18); --on-accent: #101820;
+  --secondary: #80C8B0; --secondary-soft: rgba(128,200,176,0.2);
+  --focus: #DC8AA7; --selection: #513041;
+  --danger: #F4918A; --success: #6DB58A;
+  --topbar-bg: #1A1016; --topbar-text: #F1E4E9; --topbar-muted: #BCA0AC; --topbar-hover: rgba(241,228,233,0.08);
+  --editor-bg: #1A1016; --gutter-bg: #21171D; --gutter-text: #BCA0AC; --gutter-active: #F1E4E9; --curline: rgba(255,255,255,.05);
+  --canvas-bg: #21171D; --canvas-dot: #5A4050; --paper: #2D2028; --paper-border: #4A3440;
+  --menu-bg: #2D2028; --overlay: rgba(0,0,0,.68);
+  --bs-nav-bg: #1A1016; --bs-nav-text: #F1E4E9; --bs-nav-muted: #BCA0AC; --bs-nav-hover: rgba(241,228,233,0.07); --bs-nav-active: #513041;
+  /* syntax */
+  --syn-comment: #BCA0AC; --syn-keyword: #DC8AA7; --syn-module: #80C8B0; --syn-string: #E0B870; --syn-tag: #BCA0AC;
+  --syn-process: #80C8B0; --syn-decision: #E0B870; --syn-io: #90A8E0; --syn-emph: #DC8AA7; --syn-op: #BCA0AC; --syn-brace: #BCA0AC;
+  --syn-sel: #DC8AA7; --syn-class: #80C8B0; --syn-prop: #90A8E0; --syn-num: #E0B870;
+  /* diagram sample */
+  --dg-ink: #F1E4E9; --dg-edge: #BCA0AC; --dg-proc-fill: #1A1016; --dg-proc-stroke: #DC8AA7;
+  --dg-dec-fill: #513041; --dg-dec-stroke: #C26F8E; --dg-term-fill: #DC8AA7; --dg-term-ink: #101820;
+  --dg-io-fill: #372028; --dg-io-stroke: #5A4050; --dg-tag: #BCA0AC;
+}
+
+:root[data-theme="amber-terminal"] {
+  color-scheme: dark;
+  --bg: #201C14; --surface: #2B261A; --surface-2: #352F1E; --surface-3: #504324;
+  --border: #4B412A; --border-strong: #5C5234;
+  --text: #F2E8CE; --text-2: #B5A77E; --muted: #B5A77E; --faint: #5C5234;
+  --accent: #E4B95F; --accent-hover: #CC9E44; --accent-soft: rgba(228,185,95,0.18); --on-accent: #101820;
+  --secondary: #88C8A8; --secondary-soft: rgba(136,200,168,0.2);
+  --focus: #E4B95F; --selection: #504324;
+  --danger: #F4918A; --success: #6DB58A;
+  --topbar-bg: #18150E; --topbar-text: #F2E8CE; --topbar-muted: #B5A77E; --topbar-hover: rgba(242,232,206,0.08);
+  --editor-bg: #18150E; --gutter-bg: #201C14; --gutter-text: #B5A77E; --gutter-active: #F2E8CE; --curline: rgba(255,255,255,.05);
+  --canvas-bg: #201C14; --canvas-dot: #5C5234; --paper: #2B261A; --paper-border: #4B412A;
+  --menu-bg: #2B261A; --overlay: rgba(0,0,0,.68);
+  --bs-nav-bg: #18150E; --bs-nav-text: #F2E8CE; --bs-nav-muted: #B5A77E; --bs-nav-hover: rgba(242,232,206,0.07); --bs-nav-active: #504324;
+  /* syntax */
+  --syn-comment: #B5A77E; --syn-keyword: #E4B95F; --syn-module: #88C8A8; --syn-string: #E09060; --syn-tag: #B5A77E;
+  --syn-process: #88C8A8; --syn-decision: #E09060; --syn-io: #88B0D8; --syn-emph: #E4B95F; --syn-op: #B5A77E; --syn-brace: #B5A77E;
+  --syn-sel: #E4B95F; --syn-class: #88C8A8; --syn-prop: #88B0D8; --syn-num: #E09060;
+  /* diagram sample */
+  --dg-ink: #F2E8CE; --dg-edge: #B5A77E; --dg-proc-fill: #18150E; --dg-proc-stroke: #E4B95F;
+  --dg-dec-fill: #504324; --dg-dec-stroke: #CC9E44; --dg-term-fill: #E4B95F; --dg-term-ink: #101820;
+  --dg-io-fill: #352F1E; --dg-io-stroke: #5C5234; --dg-tag: #B5A77E;
+}
+
+:root[data-theme="carbon"] {
+  color-scheme: dark;
+  --bg: #181818; --surface: #222222; --surface-2: #2D2D2D; --surface-3: #3B3B3B;
+  --border: #414141; --border-strong: #525252;
+  --text: #F0F0F0; --text-2: #AAAAAA; --muted: #AAAAAA; --faint: #525252;
+  --accent: #C5C5C5; --accent-hover: #ABABAB; --accent-soft: rgba(197,197,197,0.18); --on-accent: #101820;
+  --secondary: #A0D0B8; --secondary-soft: rgba(160,208,184,0.2);
+  --focus: #C5C5C5; --selection: #3B3B3B;
+  --danger: #F4918A; --success: #6DB58A;
+  --topbar-bg: #121212; --topbar-text: #F0F0F0; --topbar-muted: #AAAAAA; --topbar-hover: rgba(240,240,240,0.08);
+  --editor-bg: #121212; --gutter-bg: #181818; --gutter-text: #AAAAAA; --gutter-active: #F0F0F0; --curline: rgba(255,255,255,.05);
+  --canvas-bg: #181818; --canvas-dot: #525252; --paper: #222222; --paper-border: #414141;
+  --menu-bg: #222222; --overlay: rgba(0,0,0,.68);
+  --bs-nav-bg: #121212; --bs-nav-text: #F0F0F0; --bs-nav-muted: #AAAAAA; --bs-nav-hover: rgba(240,240,240,0.07); --bs-nav-active: #3B3B3B;
+  /* syntax */
+  --syn-comment: #AAAAAA; --syn-keyword: #C8C8C8; --syn-module: #A0D0B8; --syn-string: #D8C080; --syn-tag: #AAAAAA;
+  --syn-process: #A0D0B8; --syn-decision: #D8C080; --syn-io: #A0C0E0; --syn-emph: #C5C5C5; --syn-op: #AAAAAA; --syn-brace: #AAAAAA;
+  --syn-sel: #C8C8C8; --syn-class: #A0D0B8; --syn-prop: #A0C0E0; --syn-num: #D8C080;
+  /* diagram sample */
+  --dg-ink: #F0F0F0; --dg-edge: #AAAAAA; --dg-proc-fill: #121212; --dg-proc-stroke: #C5C5C5;
+  --dg-dec-fill: #3B3B3B; --dg-dec-stroke: #ABABAB; --dg-term-fill: #C5C5C5; --dg-term-ink: #101820;
+  --dg-io-fill: #2D2D2D; --dg-io-stroke: #525252; --dg-tag: #AAAAAA;
+}
+
+:root[data-theme="high-contrast-dark"] {
+  color-scheme: dark;
+  --bg: #101010; --surface: #1A1A1A; --surface-2: #252525; --surface-3: #263F61;
+  --border: #777777; --border-strong: #888888;
+  --text: #FFFFFF; --text-2: #D0D0D0; --muted: #D0D0D0; --faint: #888888;
+  --accent: #8AB4FF; --accent-hover: #6898EE; --accent-soft: rgba(138,180,255,0.18); --on-accent: #101820;
+  --secondary: #50E0B0; --secondary-soft: rgba(80,224,176,0.2);
+  --focus: #8AB4FF; --selection: #263F61;
+  --danger: #F4918A; --success: #6DB58A;
+  --topbar-bg: #090909; --topbar-text: #FFFFFF; --topbar-muted: #D0D0D0; --topbar-hover: rgba(255,255,255,0.08);
+  --editor-bg: #090909; --gutter-bg: #101010; --gutter-text: #D0D0D0; --gutter-active: #FFFFFF; --curline: rgba(255,255,255,.05);
+  --canvas-bg: #101010; --canvas-dot: #888888; --paper: #1A1A1A; --paper-border: #777777;
+  --menu-bg: #1A1A1A; --overlay: rgba(0,0,0,.68);
+  --bs-nav-bg: #090909; --bs-nav-text: #FFFFFF; --bs-nav-muted: #D0D0D0; --bs-nav-hover: rgba(255,255,255,0.07); --bs-nav-active: #263F61;
+  /* syntax */
+  --syn-comment: #D0D0D0; --syn-keyword: #8AB4FF; --syn-module: #50E0B0; --syn-string: #FFD060; --syn-tag: #D0D0D0;
+  --syn-process: #50E0B0; --syn-decision: #FFD060; --syn-io: #80D8FF; --syn-emph: #8AB4FF; --syn-op: #D0D0D0; --syn-brace: #D0D0D0;
+  --syn-sel: #8AB4FF; --syn-class: #50E0B0; --syn-prop: #80D8FF; --syn-num: #FFD060;
+  /* diagram sample */
+  --dg-ink: #FFFFFF; --dg-edge: #D0D0D0; --dg-proc-fill: #090909; --dg-proc-stroke: #8AB4FF;
+  --dg-dec-fill: #263F61; --dg-dec-stroke: #6898EE; --dg-term-fill: #8AB4FF; --dg-term-ink: #101820;
+  --dg-io-fill: #252525; --dg-io-stroke: #888888; --dg-tag: #D0D0D0;
+}
+

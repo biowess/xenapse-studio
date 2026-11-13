@@ -1,0 +1,41 @@
+.pane--preview { background: var(--canvas-bg); }
+.previewbar { display: flex; align-items: center; justify-content: space-between; height: var(--tab-h); flex: none; padding: 0 8px 0 14px; background: var(--surface-2); border-bottom: 1px solid var(--border); gap: 12px; }
+.previewbar__title { display: flex; align-items: center; gap: 10px; font-size: var(--fs-sm); color: var(--text-2); font-weight: 500; min-width: 0; }
+.previewbar__tools { display: flex; align-items: center; gap: 2px; }
+.previewbar__sep { width: 1px; height: 16px; background: var(--border-strong); margin: 0 6px; }
+.zoomlabel { min-width: 46px; text-align: center; font-size: var(--fs-sm); font-variant-numeric: tabular-nums; color: var(--text-2); }
+.canvas { position: relative; flex: 1; min-height: 0; overflow: auto; background-color: var(--canvas-bg); cursor: grab; }
+body[data-canvas="dots"] .canvas { background-image: radial-gradient(var(--canvas-dot) 1px, transparent 1.2px); background-size: 20px 20px; }
+body[data-canvas="grid"] .canvas { background-image: linear-gradient(var(--canvas-dot) 1px, transparent 1px), linear-gradient(90deg, var(--canvas-dot) 1px, transparent 1px); background-size: 24px 24px; background-position: -1px -1px; }
+.canvas.is-panning { cursor: grabbing; user-select: none; }
+.stage { display: flex; min-width: 100%; min-height: 100%; width: max-content; padding: 36px; }
+.sheet { margin: auto; flex: none; background: #ffffff; border: 1px solid var(--paper-border); padding: 28px; }
+.sheet svg { display: block; }
+.empty { margin: auto; max-width: 340px; text-align: center; padding: 24px; cursor: default; }
+.empty__mark { width: 36px; margin: 0 auto 16px; opacity: .55; }
+.empty h3 { font: 400 var(--fs-xl)/1.2 var(--font-display); margin-bottom: 8px; }
+.empty p { color: var(--muted); margin-bottom: 16px; }
+.empty__actions { display: flex; gap: 8px; justify-content: center; }
+
+.preview-chip {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background: var(--surface);
+  color: var(--text-2);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-lg);
+  padding: 4px 12px;
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  pointer-events: none;
+}
+
+.badge--danger {
+  background: var(--danger) !important;
+  border-color: var(--danger) !important;
+  color: #ffffff !important;
+}
